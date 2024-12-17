@@ -50,5 +50,5 @@ Neos:
 [license]: LICENSE
 [github watchers]: https://img.shields.io/github/watchers/CarbonPackages/Carbon.Webfonts.svg
 [subscription]: https://github.com/CarbonPackages/Carbon.Webfonts/subscription
-[Litefyr]: https://litefyr.io
+[Litefyr]: https://github.com/Litefyr
 [Carbon.Newsletter]: https://github.com/CarbonPackages/Carbon.Newsletter
