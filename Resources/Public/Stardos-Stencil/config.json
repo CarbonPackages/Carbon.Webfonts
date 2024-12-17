@@ -1,0 +1,11 @@
+{
+  "name": "Stardos Stencil",
+  "version": "v15",
+  "filename": "Stardos-Stencil",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Stardos-Stencil/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

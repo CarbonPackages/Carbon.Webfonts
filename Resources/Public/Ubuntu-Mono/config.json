@@ -1,0 +1,13 @@
+{
+  "name": "Ubuntu",
+  "version": "v20",
+  "filename": "Ubuntu",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Ubuntu/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    700
+  ]
+}

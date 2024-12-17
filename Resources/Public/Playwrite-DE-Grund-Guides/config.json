@@ -1,0 +1,8 @@
+{
+  "name": "Playwrite DE Grund Guides",
+  "version": "v1",
+  "filename": "Playwrite-DE-Grund-Guides",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Playwrite-DE-Grund-Guides/Style.css",
+  "fontWeight": 400
+}

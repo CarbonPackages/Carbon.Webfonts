@@ -1,0 +1,8 @@
+{
+  "name": "Nunito Sans",
+  "version": "v15",
+  "filename": "Nunito-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Nunito-Sans/Style.css",
+  "fontWeight": "200 1000"
+}

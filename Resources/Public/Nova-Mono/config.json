@@ -1,0 +1,8 @@
+{
+  "name": "Nova Mono",
+  "version": "v21",
+  "filename": "Nova-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Nova-Mono/Style.css",
+  "fontWeight": 400
+}

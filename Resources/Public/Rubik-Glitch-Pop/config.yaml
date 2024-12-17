@@ -1,0 +1,6 @@
+name: "Rubik Glitch Pop"
+version: "v1"
+filename: "Rubik-Glitch-Pop"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Rubik-Glitch-Pop/Style.css"
+fontWeight: 400

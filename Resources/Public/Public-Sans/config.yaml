@@ -1,0 +1,6 @@
+name: "Public Sans"
+version: "v18"
+filename: "Public-Sans"
+group: "Sans Serif"
+cssFile: "resource://Carbon.Webfonts/Public-Sans/Style.css"
+fontWeight: "100 900"

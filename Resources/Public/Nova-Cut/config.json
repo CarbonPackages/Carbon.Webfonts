@@ -1,0 +1,8 @@
+{
+  "name": "Nova Cut",
+  "version": "v25",
+  "filename": "Nova-Cut",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Nova-Cut/Style.css",
+  "fontWeight": 400
+}

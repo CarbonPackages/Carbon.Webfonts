@@ -1,0 +1,452 @@
+Neos:
+  Neos:
+    Ui:
+      frontendConfiguration:
+        CarbonWebfonts:
+          fallback:
+            Display: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+            Handwriting: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+            Sans Serif: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+            Serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif
+            Monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace
+          fonts:
+            Advent Pro:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Advent-Pro/Style.css
+              fontWeight: 100 900
+            Allison:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Allison/Style.css
+              fontWeight: 400
+            Alumni Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Alumni-Sans/Style.css
+              fontWeight: 100 900
+            Anybody:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Anybody/Style.css
+              fontWeight: 100 900
+            Atkinson Hyperlegible:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Atkinson-Hyperlegible/Style.css
+              fontWeight:
+                - 400
+                - 700
+            Brusher:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Brusher/Style.css
+              fontWeight: 700
+            Cabin:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Cabin/Style.css
+              fontWeight: 400 700
+            Cabin Sketch:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Cabin-Sketch/Style.css
+              fontWeight:
+                - 400
+                - 700
+            Caveat:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Caveat/Style.css
+              fontWeight: 400 700
+            Chivo:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Chivo/Style.css
+              fontWeight: 100 900
+            Cinzel:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Cinzel/Style.css
+              fontWeight: 400 900
+            Crimson Pro:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Crimson-Pro/Style.css
+              fontWeight: 200 900
+            Dancing Script:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Dancing-Script/Style.css
+              fontWeight: 400 700
+            DynaPuff:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/DynaPuff/Style.css
+              fontWeight: 400 700
+            El Messiri:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/El-Messiri/Style.css
+              fontWeight: 400 700
+            Expletus Sans:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Expletus-Sans/Style.css
+              fontWeight: 400 700
+            Fontdiner Swanky:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Fontdiner-Swanky/Style.css
+              fontWeight: 400
+            Georama:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Georama/Style.css
+              fontWeight: 100 900
+            Grandstander:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Grandstander/Style.css
+              fontWeight: 100 900
+            Inter:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Inter/Style.css
+              fontWeight: 100 900
+            Inter Tight:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Inter-Tight/Style.css
+              fontWeight: 100 900
+            Jura:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Jura/Style.css
+              fontWeight: 300 700
+            Kings:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Kings/Style.css
+              fontWeight: 400
+            Lato:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Lato/Style.css
+              fontWeight:
+                - 100
+                - 300
+                - 400
+                - 700
+                - 900
+            Lemonada:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Lemonada/Style.css
+              fontWeight: 300 700
+            Lexend:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Lexend/Style.css
+              fontWeight: 100 900
+            Lobster:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Lobster/Style.css
+              fontWeight: 400
+            Lora:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Lora/Style.css
+              fontWeight: 400 700
+            Maven Pro:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Maven-Pro/Style.css
+              fontWeight: 400 900
+            Merienda:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Merienda/Style.css
+              fontWeight: 300 900
+            Merriweather:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Merriweather/Style.css
+              fontWeight:
+                - 300
+                - 400
+                - 700
+                - 900
+            Metamorphous:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Metamorphous/Style.css
+              fontWeight: 400
+            Monoton:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Monoton/Style.css
+              fontWeight: 400
+            Montserrat:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Montserrat/Style.css
+              fontWeight: 100 900
+            Noto Sans Display:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Noto-Sans-Display/Style.css
+              fontWeight: 100 900
+            Noto Sans Mono:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Noto-Sans-Mono/Style.css
+              fontWeight: 100 900
+            Nova Cut:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Cut/Style.css
+              fontWeight: 400
+            Nova Flat:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Flat/Style.css
+              fontWeight: 400
+            Nova Mono:
+              group: Monospace
+              cssFile: resource://Carbon.Webfonts/Nova-Mono/Style.css
+              fontWeight: 400
+            Nova Oval:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Oval/Style.css
+              fontWeight: 400
+            Nova Round:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Round/Style.css
+              fontWeight: 400
+            Nova Script:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Script/Style.css
+              fontWeight: 400
+            Nova Slim:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Slim/Style.css
+              fontWeight: 400
+            Nova Square:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Nova-Square/Style.css
+              fontWeight: 400
+            Nunito:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Nunito/Style.css
+              fontWeight: 200 1000
+            Nunito Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Nunito-Sans/Style.css
+              fontWeight: 200 1000
+            Open Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Open-Sans/Style.css
+              fontWeight: 300 800
+            Oswald:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Oswald/Style.css
+              fontWeight: 200 700
+            PT Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/PT-Sans/Style.css
+              fontWeight:
+                - 400
+                - 700
+            PT Sans Caption:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/PT-Sans-Caption/Style.css
+              fontWeight:
+                - 400
+                - 700
+            PT Sans Narrow:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/PT-Sans-Narrow/Style.css
+              fontWeight:
+                - 400
+                - 700
+            PT Serif:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/PT-Serif/Style.css
+              fontWeight:
+                - 400
+                - 700
+            PT Serif Caption:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/PT-Serif-Caption/Style.css
+              fontWeight: 400
+            Pacifico:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Pacifico/Style.css
+              fontWeight: 400
+            Pirata One:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Pirata-One/Style.css
+              fontWeight: 400
+            Playfair Display:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Playfair-Display/Style.css
+              fontWeight: 400 900
+            Playwrite DE Grund Guides:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Playwrite-DE-Grund-Guides/Style.css
+              fontWeight: 400
+            Playwrite DE LA Guides:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Playwrite-DE-LA-Guides/Style.css
+              fontWeight: 400
+            Playwrite DE SAS Guides:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Playwrite-DE-SAS-Guides/Style.css
+              fontWeight: 400
+            Playwrite DE VA Guides:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Playwrite-DE-VA-Guides/Style.css
+              fontWeight: 400
+            Playwrite DK Loopet Guides:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Playwrite-DK-Loopet-Guides/Style.css
+              fontWeight: 400
+            Poppins:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Poppins/Style.css
+              fontWeight:
+                - 100
+                - 200
+                - 300
+                - 400
+                - 500
+                - 600
+                - 700
+                - 800
+                - 900
+            Public Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Public-Sans/Style.css
+              fontWeight: 100 900
+            Quicksand:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Quicksand/Style.css
+              fontWeight: 300 700
+            Raleway:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Raleway/Style.css
+              fontWeight: 100 900
+            Raleway Dots:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Raleway-Dots/Style.css
+              fontWeight: 400
+            Readex Pro:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Readex-Pro/Style.css
+              fontWeight: 160 700
+            Roboto Condensed:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Roboto-Condensed/Style.css
+              fontWeight: 100 900
+            Roboto Mono:
+              group: Monospace
+              cssFile: resource://Carbon.Webfonts/Roboto-Mono/Style.css
+              fontWeight: 100 700
+            Roboto Serif:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Roboto-Serif/Style.css
+              fontWeight: 100 900
+            Roboto Slab:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Roboto-Slab/Style.css
+              fontWeight: 100 900
+            Rubik:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Rubik/Style.css
+              fontWeight: 300 900
+            Rubik Beastly:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Beastly/Style.css
+              fontWeight: 400
+            Rubik Bubbles:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Bubbles/Style.css
+              fontWeight: 400
+            Rubik Burned:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Burned/Style.css
+              fontWeight: 400
+            Rubik Dirt:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Dirt/Style.css
+              fontWeight: 400
+            Rubik Distressed:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Distressed/Style.css
+              fontWeight: 400
+            Rubik Doodle Shadow:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Doodle-Shadow/Style.css
+              fontWeight: 400
+            Rubik Glitch:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Glitch/Style.css
+              fontWeight: 400
+            Rubik Glitch Pop:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rubik-Glitch-Pop/Style.css
+              fontWeight: 400
+            Rye:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Rye/Style.css
+              fontWeight: 400
+            STIX Two Text:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/STIX-Two-Text/Style.css
+              fontWeight: 400 700
+            Shojumaru:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Shojumaru/Style.css
+              fontWeight: 400
+            Smooch:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Smooch/Style.css
+              fontWeight: 400
+            Smooch Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Smooch-Sans/Style.css
+              fontWeight: 100 900
+            Source Sans 3:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Source-Sans-3/Style.css
+              fontWeight: 200 900
+            Space Grotesk:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Space-Grotesk/Style.css
+              fontWeight: 300 700
+            Stardos Stencil:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Stardos-Stencil/Style.css
+              fontWeight:
+                - 400
+                - 700
+            Style Script:
+              group: Handwriting
+              cssFile: resource://Carbon.Webfonts/Style-Script/Style.css
+              fontWeight: 400
+            Ubuntu:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Ubuntu/Style.css
+              fontWeight:
+                - 300
+                - 400
+                - 500
+                - 700
+            Ubuntu Condensed:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Ubuntu-Condensed/Style.css
+              fontWeight: 400
+            Ubuntu Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Ubuntu-Sans/Style.css
+              fontWeight: 100 800
+            Ubuntu Sans Mono:
+              group: Monospace
+              cssFile: resource://Carbon.Webfonts/Ubuntu-Sans-Mono/Style.css
+              fontWeight: 400 700
+            UnifrakturMaguntia:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/UnifrakturMaguntia/Style.css
+              fontWeight: 400
+            Urbanist:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Urbanist/Style.css
+              fontWeight: 100 900
+            Vollkorn:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Vollkorn/Style.css
+              fontWeight: 400 900
+            Vollkorn SC:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Vollkorn-SC/Style.css
+              fontWeight:
+                - 400
+                - 600
+                - 700
+                - 900
+            Wallpoet:
+              group: Display
+              cssFile: resource://Carbon.Webfonts/Wallpoet/Style.css
+              fontWeight: 400
+            Work Sans:
+              group: Sans Serif
+              cssFile: resource://Carbon.Webfonts/Work-Sans/Style.css
+              fontWeight: 100 900
+            Yrsa:
+              group: Serif
+              cssFile: resource://Carbon.Webfonts/Yrsa/Style.css
+              fontWeight: 300 700

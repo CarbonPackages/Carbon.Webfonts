@@ -1,0 +1,6 @@
+name: "Urbanist"
+version: "v15"
+filename: "Urbanist"
+group: "Sans Serif"
+cssFile: "resource://Carbon.Webfonts/Urbanist/Style.css"
+fontWeight: "100 900"

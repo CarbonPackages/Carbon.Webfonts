@@ -1,0 +1,6 @@
+name: "Roboto Serif"
+version: "v15"
+filename: "Roboto-Serif"
+group: "Serif"
+cssFile: "resource://Carbon.Webfonts/Roboto-Serif/Style.css"
+fontWeight: "100 900"

@@ -1,0 +1,6 @@
+name: "Wallpoet"
+version: "v20"
+filename: "Wallpoet"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Wallpoet/Style.css"
+fontWeight: 400

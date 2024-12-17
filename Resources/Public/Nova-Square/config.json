@@ -1,0 +1,8 @@
+{
+  "name": "Nova Square",
+  "version": "v25",
+  "filename": "Nova-Square",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Nova-Square/Style.css",
+  "fontWeight": 400
+}

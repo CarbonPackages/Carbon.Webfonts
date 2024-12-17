@@ -1,0 +1,11 @@
+name: "Lato"
+version: "v24"
+filename: "Lato"
+group: "Sans Serif"
+cssFile: "resource://Carbon.Webfonts/Lato/Style.css"
+fontWeight:
+  - 100
+  - 300
+  - 400
+  - 700
+  - 900

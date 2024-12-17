@@ -1,0 +1,6 @@
+name: "STIX Two Text"
+version: "v12"
+filename: "STIX-Two-Text"
+group: "Serif"
+cssFile: "resource://Carbon.Webfonts/STIX-Two-Text/Style.css"
+fontWeight: "400 700"

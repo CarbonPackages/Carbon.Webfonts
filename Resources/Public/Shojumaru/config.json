@@ -1,0 +1,8 @@
+{
+  "name": "Shojumaru",
+  "version": "v15",
+  "filename": "Shojumaru",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Shojumaru/Style.css",
+  "fontWeight": 400
+}

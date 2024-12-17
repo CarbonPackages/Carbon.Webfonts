@@ -1,0 +1,6 @@
+name: "Rubik Beastly"
+version: "v10"
+filename: "Rubik-Beastly"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Rubik-Beastly/Style.css"
+fontWeight: 400

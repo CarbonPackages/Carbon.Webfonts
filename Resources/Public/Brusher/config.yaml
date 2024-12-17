@@ -1,0 +1,6 @@
+name: "Brusher"
+version: "v1"
+filename: "Brusher"
+group: "Handwriting"
+cssFile: "resource://Carbon.Webfonts/Brusher/Style.css"
+fontWeight: 700

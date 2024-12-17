@@ -1,0 +1,8 @@
+{
+  "name": "Space Grotesk",
+  "version": "v16",
+  "filename": "Space-Grotesk",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Space-Grotesk/Style.css",
+  "fontWeight": "300 700"
+}

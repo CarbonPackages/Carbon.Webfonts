@@ -1,0 +1,12 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "node generateConfig.mjs",
+    "pipeline": "pnpm install --silent;pnpm build"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1",
+    "yaml": "^2.6.1"
+  }
+}

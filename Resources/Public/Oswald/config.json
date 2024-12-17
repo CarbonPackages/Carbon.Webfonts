@@ -1,0 +1,8 @@
+{
+  "name": "Oswald",
+  "version": "v53",
+  "filename": "Oswald",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Oswald/Style.css",
+  "fontWeight": "200 700"
+}

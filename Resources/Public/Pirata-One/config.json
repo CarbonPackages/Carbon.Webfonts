@@ -1,0 +1,8 @@
+{
+  "name": "Pirata One",
+  "version": "v22",
+  "filename": "Pirata-One",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Pirata-One/Style.css",
+  "fontWeight": 400
+}

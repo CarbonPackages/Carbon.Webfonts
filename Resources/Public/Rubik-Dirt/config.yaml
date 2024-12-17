@@ -1,0 +1,6 @@
+name: "Rubik Dirt"
+version: "v2"
+filename: "Rubik-Dirt"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Rubik-Dirt/Style.css"
+fontWeight: 400

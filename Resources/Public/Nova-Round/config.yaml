@@ -1,0 +1,6 @@
+name: "Nova Round"
+version: "v22"
+filename: "Nova-Round"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Nova-Round/Style.css"
+fontWeight: 400

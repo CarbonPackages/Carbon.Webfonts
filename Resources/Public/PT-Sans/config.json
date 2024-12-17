@@ -1,0 +1,11 @@
+{
+  "name": "PT Sans",
+  "version": "v17",
+  "filename": "PT-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/PT-Sans/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

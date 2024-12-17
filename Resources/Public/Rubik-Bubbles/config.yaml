@@ -1,0 +1,6 @@
+name: "Rubik Bubbles"
+version: "v3"
+filename: "Rubik-Bubbles"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Rubik-Bubbles/Style.css"
+fontWeight: 400

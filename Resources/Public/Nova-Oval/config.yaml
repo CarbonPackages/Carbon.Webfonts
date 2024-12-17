@@ -1,0 +1,6 @@
+name: "Nova Oval"
+version: "v25"
+filename: "Nova-Oval"
+group: "Display"
+cssFile: "resource://Carbon.Webfonts/Nova-Oval/Style.css"
+fontWeight: 400

@@ -1,0 +1,6 @@
+name: "Merienda"
+version: "v19"
+filename: "Merienda"
+group: "Handwriting"
+cssFile: "resource://Carbon.Webfonts/Merienda/Style.css"
+fontWeight: "300 900"

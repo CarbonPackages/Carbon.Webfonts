@@ -1,0 +1,11 @@
+{
+  "name": "PT Sans Caption",
+  "version": "v19",
+  "filename": "PT-Sans-Caption",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/PT-Sans-Caption/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

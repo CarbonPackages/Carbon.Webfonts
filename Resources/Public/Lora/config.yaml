@@ -1,0 +1,6 @@
+name: "Lora"
+version: "v35"
+filename: "Lora"
+group: "Serif"
+cssFile: "resource://Carbon.Webfonts/Lora/Style.css"
+fontWeight: "400 700"

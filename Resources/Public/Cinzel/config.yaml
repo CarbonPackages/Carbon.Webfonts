@@ -1,0 +1,6 @@
+name: "Cinzel"
+version: "v23"
+filename: "Cinzel"
+group: "Serif"
+cssFile: "resource://Carbon.Webfonts/Cinzel/Style.css"
+fontWeight: "400 900"

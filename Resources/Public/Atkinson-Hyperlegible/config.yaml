@@ -1,0 +1,8 @@
+name: "Atkinson Hyperlegible"
+version: "v11"
+filename: "Atkinson-Hyperlegible"
+group: "Sans Serif"
+cssFile: "resource://Carbon.Webfonts/Atkinson-Hyperlegible/Style.css"
+fontWeight:
+  - 400
+  - 700

@@ -1,0 +1,8 @@
+{
+  "name": "Advent Pro",
+  "version": "v28",
+  "filename": "Advent-Pro",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Advent-Pro/Style.css",
+  "fontWeight": "100 900"
+}

@@ -1,0 +1,10 @@
+/.editorconfig export-ignore
+/.gitattributes export-ignore
+/.github export-ignore
+/.gitignore export-ignore
+/.nvmrc export-ignore
+/.prettierrc export-ignore
+/generateConfig.mjs export-ignore
+/Makefile export-ignore
+/package.json export-ignore
+/pnpm-lock.yaml export-ignore

@@ -1,0 +1,8 @@
+{
+  "name": "Nova Slim",
+  "version": "v25",
+  "filename": "Nova-Slim",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Nova-Slim/Style.css",
+  "fontWeight": 400
+}
