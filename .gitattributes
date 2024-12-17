@@ -4,6 +4,7 @@
 /.gitignore export-ignore
 /.nvmrc export-ignore
 /.prettierrc export-ignore
+/config.json export-ignore
 /generateConfig.mjs export-ignore
 /Makefile export-ignore
 /package.json export-ignore

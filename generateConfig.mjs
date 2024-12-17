@@ -1,20 +1,19 @@
 import fs from "fs";
 import path from "path";
 import YAML from "yaml";
+import additionalConfig from "./config.json" with { type: "json" };
 
 const folder = "Resources/Public/";
-const fontList = fs.readdirSync(folder);
 
-const fallback = {
-    Display: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-    Handwriting: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-    "Sans Serif": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-    Serif: "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-    Monospace: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-}
+const fontList = fs.readdirSync(folder);
+const { fonts, fallbacks } = additionalConfig;
 const settings = {};
-const json = {}
+const json = {};
 let counter = 0;
+
+for (const name in fonts) {
+    setFontConfig({ name, ...fonts[name] });
+}
 
 for (const font of fontList) {
     const filepath = path.join(folder, font, "config.json");
@@ -22,14 +21,8 @@ for (const font of fontList) {
     if (!fs.existsSync(filepath)) {
         continue;
     }
-    counter++;
-    const { name, ...config } = JSON.parse(fs.readFileSync(filepath, "utf8"));
-    settings[name] = {
-        group: config.group,
-        cssFile: config.cssFile,
-        fontWeight: config.fontWeight,
-    };
-    json[name] = config
+
+    setFontConfig(JSON.parse(fs.readFileSync(filepath, "utf8")));
 }
 
 const yamlContent = YAML.stringify(
@@ -38,10 +31,7 @@ const yamlContent = YAML.stringify(
             Neos: {
                 Ui: {
                     frontendConfiguration: {
-                        CarbonWebfonts: {
-                            fallback,
-                            fonts: settings,
-                        },
+                        CarbonWebfonts: settings,
                     },
                 },
             },
@@ -55,8 +45,28 @@ const yamlContent = YAML.stringify(
     },
 );
 
-
 fs.writeFileSync("Configuration/Settings.Fonts.yaml", yamlContent);
-fs.writeFileSync(path.join(folder, "config.json"), JSON.stringify(json, null, 2));
+fs.writeFileSync(
+    path.join(folder, "config.json"),
+    JSON.stringify(json, null, 2),
+);
 
 console.log(`\nWrote ${counter} fonts to the settings file.\n`);
+
+function setFontConfig({ name, group, cssFile, fontWeight, ...config }) {
+    counter++;
+    // Remove the font name from the fallback list
+    const fallback = (config.fallback || fallbacks[group])
+        .replace(`${name}`, "")
+        .replaceAll('""', "")
+        .replaceAll("''", "")
+        .replaceAll(",,", ",");
+    const fontSetting = {
+        group,
+        cssFile,
+        fontWeight,
+        fallback,
+    };
+    settings[name] = fontSetting;
+    json[name] = { ...config, ...fontSetting };
+}
