@@ -1,0 +1,6 @@
+name: "Doto"
+version: "v1"
+filename: "Doto"
+group: "Sans Serif"
+cssFile: "resource://Carbon.Webfonts/Doto/Style.css"
+fontWeight: "100 900"

@@ -132,6 +132,11 @@ Neos:
             cssFile: resource://Carbon.Webfonts/Dancing-Script/Style.css
             fontWeight: 400 700
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+          Doto:
+            group: Sans Serif
+            cssFile: resource://Carbon.Webfonts/Doto/Style.css
+            fontWeight: 100 900
+            fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           DynaPuff:
             group: Display
             cssFile: resource://Carbon.Webfonts/DynaPuff/Style.css
