@@ -4,6 +4,7 @@ namespace Carbon\Webfonts;
 
 use Neos\Eel\ProtectedContextAwareInterface;
 use Neos\Flow\Annotations as Flow;
+use Neos\Flow\ResourceManagement\ResourceManager;
 
 class EelHelper implements ProtectedContextAwareInterface
 {
@@ -11,45 +12,60 @@ class EelHelper implements ProtectedContextAwareInterface
     #[Flow\InjectConfiguration('frontendConfiguration.CarbonWebfonts', 'Neos.Neos.Ui')]
     protected $fonts;
 
+    #[Flow\Inject]
+    protected ResourceManager $resourceManager;
+
     /**
-     * Get CSS File
+     * Get Font name
      *
      * @param string $font
-     * @param string $prefix
-     * @return string|null
+     * @return array|null
      */
-    public function getCSSFile(?string $font = null, ?string $prefix = null): ?string
-    {
+    public function getFontName(?string $font = null): ?string {
         if (!$font) {
             return null;
         }
         // Because the font string can have a fallback font, we need to split it
-        $font = trim(explode(',', $font)[0]);
+        return trim(explode(',', $font)[0]);
+    }
+
+    /**
+     * Get CSS File
+     *
+     * @param string $font
+     * @return string|null
+     */
+    public function getCSSFile(?string $font = null): ?string
+    {
+        $font = $this->getFontName($font);
+        if (!$font) {
+            return null;
+        }
         $file = $this->fonts[$font]['cssFile'] ?? null;
         if (!$file) {
             return null;
         }
 
-        if (str_starts_with($file, 'resource://')) {
-            $file = str_replace('resource://', '/_Resources/Static/Packages/', $file);
+        if (!str_starts_with($file, 'resource://')) {
+            return $file;
         }
 
-        if ($prefix) {
-            return $prefix . $file;
-        }
-        return $file;
+        // remove the resource:// prefix
+        $file = str_replace('resource://', '', $file);
+        [$packageKey, $path] = explode('/', $file, 2);
+        $resourcePath = sprintf('resource://%s/Public/%s', $packageKey, $path);
+        return $this->resourceManager->getPublicPackageResourceUriByPath($resourcePath);
     }
 
     /**
      * Get CSS File Content
      *
      * @param string $font
-     * @param string $prefix
      * @return string|null
      */
-    public function getCSSFileContent(?string $font = null, ?string $prefix = null): ?string
+    public function getCSSFileContent(?string $font = null): ?string
     {
-        $file = $this->getCSSFile($font, $prefix);
+        $file = $this->getCSSFile($font);
         if (!$file) {
             return null;
         }
