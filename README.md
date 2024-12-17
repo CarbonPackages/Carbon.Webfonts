@@ -13,7 +13,30 @@ Add the package in your site package:
 composer require --no-update carbon/webfonts
 ```
 
-The run `composer update` in your project root.
+Then run `composer update` in your project root.
+
+## Add your own fonts
+
+If you want to add your own custom font, you can add your entry under the settings key
+`Neos.Neos.Ui.frontendConfiguration.CarbonWebfonts`:
+
+```yaml
+Neos:
+  Neos:
+    Ui:
+      frontendConfiguration:
+        CarbonWebfonts:
+          "My Custom Font Name":
+            # If fontWeight is an array, it has multiple fonts, if it is a number it is a fixed font weight (e.g. 400)
+            # if it is a string, it is a range of font weights (e.g. "100 900")
+            fontWeight: [400, 700]
+            # Group can be 'Sans Serif', Serif, Handwriting, Display or Monospace
+            group: "Sans Serif"
+            # The fallback is automatically done by the group name, but if you want to override it, you can set it here
+            fallback: "Helvetica, sans-serif"
+            # If your font is a webfont, please add a css-file with all declartions in it. It has to be in the public folder
+            cssFile: resource://Vendor.Packages/Fonts/MyCustomFontName.css
+```
 
 [packagist]: https://packagist.org/packages/carbon/webfonts
 [latest stable version]: https://poser.pugx.org/carbon/webfonts/v/stable
