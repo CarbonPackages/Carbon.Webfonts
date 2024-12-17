@@ -27,6 +27,11 @@
             "fontWeight": [400, 700],
             "webfont": false
         },
+        "Impact": {
+            "group": "Sans Serif",
+            "fontWeight": [400, 700],
+            "webfont": false
+        },
         "Lucida Sans Unicode": {
             "group": "Sans Serif",
             "fontWeight": [400, 700],

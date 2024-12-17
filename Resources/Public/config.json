@@ -35,6 +35,15 @@
     ],
     "fallback": "ui-serif,Cambria,'Times New Roman',Times,serif"
   },
+  "Impact": {
+    "webfont": false,
+    "group": "Sans Serif",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Lucida Sans Unicode": {
     "webfont": false,
     "group": "Sans Serif",
