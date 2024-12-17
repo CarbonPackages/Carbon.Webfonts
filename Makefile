@@ -4,7 +4,7 @@
 
 ## Prettier files
 prettier:
-	pnpm prettier --write --no-error-on-unmatched-pattern '**/*.{yaml,md}'
+	pnpm prettier --write --no-error-on-unmatched-pattern '**/*.{yaml,md,mjs,json}'
 
 ## Install dependencies and build production version
 production: install prettier build

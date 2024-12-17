@@ -2,7 +2,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "build": "node generateConfig.mjs",
+    "build": "NODE_OPTIONS=--disable-warning=ExperimentalWarning node generateConfig.mjs",
     "pipeline": "pnpm install --silent;pnpm build"
   },
   "devDependencies": {
