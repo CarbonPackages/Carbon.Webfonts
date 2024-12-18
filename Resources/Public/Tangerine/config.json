@@ -1,0 +1,11 @@
+{
+  "name": "Tangerine",
+  "version": "v17",
+  "filename": "Tangerine",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Tangerine/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}
