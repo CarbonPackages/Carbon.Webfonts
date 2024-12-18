@@ -1,6 +1,7 @@
 {
   "license": "UNLICENSED",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "NODE_OPTIONS=--disable-warning=ExperimentalWarning node build.js",
     "watch": "NODE_OPTIONS=--disable-warning=ExperimentalWarning node build.js --watch",
