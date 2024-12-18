@@ -1,0 +1,8 @@
+{
+  "name": "Work Sans",
+  "version": "v19",
+  "filename": "Work-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Work-Sans/Style.css",
+  "fontWeight": "100 900"
+}

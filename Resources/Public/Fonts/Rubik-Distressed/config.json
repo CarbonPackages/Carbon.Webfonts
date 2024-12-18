@@ -1,0 +1,8 @@
+{
+  "name": "Rubik Distressed",
+  "version": "v1",
+  "filename": "Rubik-Distressed",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Rubik-Distressed/Style.css",
+  "fontWeight": 400
+}

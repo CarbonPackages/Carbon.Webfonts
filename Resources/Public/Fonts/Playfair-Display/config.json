@@ -1,0 +1,8 @@
+{
+  "name": "Playfair Display",
+  "version": "v37",
+  "filename": "Playfair-Display",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Playfair-Display/Style.css",
+  "fontWeight": "400 900"
+}

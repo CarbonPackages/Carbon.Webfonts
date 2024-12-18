@@ -1,0 +1,8 @@
+{
+  "name": "Crimson Pro",
+  "version": "v24",
+  "filename": "Crimson-Pro",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Crimson-Pro/Style.css",
+  "fontWeight": "200 900"
+}

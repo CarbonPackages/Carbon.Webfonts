@@ -1,0 +1,8 @@
+{
+  "name": "Roboto Mono",
+  "version": "v23",
+  "filename": "Roboto-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto-Mono/Style.css",
+  "fontWeight": "100 700"
+}

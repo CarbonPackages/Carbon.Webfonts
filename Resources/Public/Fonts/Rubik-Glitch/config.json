@@ -1,0 +1,8 @@
+{
+  "name": "Rubik Glitch",
+  "version": "v2",
+  "filename": "Rubik-Glitch",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Rubik-Glitch/Style.css",
+  "fontWeight": 400
+}

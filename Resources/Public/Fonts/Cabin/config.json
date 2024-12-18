@@ -1,0 +1,8 @@
+{
+  "name": "Cabin",
+  "version": "v27",
+  "filename": "Cabin",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Cabin/Style.css",
+  "fontWeight": "400 700"
+}

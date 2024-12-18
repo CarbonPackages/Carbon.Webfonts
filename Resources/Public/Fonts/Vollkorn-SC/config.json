@@ -1,0 +1,13 @@
+{
+  "name": "Vollkorn SC",
+  "version": "v11",
+  "filename": "Vollkorn-SC",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Vollkorn-SC/Style.css",
+  "fontWeight": [
+    400,
+    600,
+    700,
+    900
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Roboto Slab",
+  "version": "v34",
+  "filename": "Roboto-Slab",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto-Slab/Style.css",
+  "fontWeight": "100 900"
+}

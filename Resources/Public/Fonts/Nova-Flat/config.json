@@ -1,0 +1,8 @@
+{
+  "name": "Nova Flat",
+  "version": "v25",
+  "filename": "Nova-Flat",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Nova-Flat/Style.css",
+  "fontWeight": 400
+}

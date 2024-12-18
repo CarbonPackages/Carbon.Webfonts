@@ -1,0 +1,8 @@
+{
+  "name": "Lobster",
+  "version": "v30",
+  "filename": "Lobster",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Lobster/Style.css",
+  "fontWeight": 400
+}

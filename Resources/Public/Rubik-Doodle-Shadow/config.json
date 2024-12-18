@@ -1,8 +1,0 @@
-{
-  "name": "Rubik Doodle Shadow",
-  "version": "v1",
-  "filename": "Rubik-Doodle-Shadow",
-  "group": "Display",
-  "cssFile": "resource://Carbon.Webfonts/Rubik-Doodle-Shadow/Style.css",
-  "fontWeight": 400
-}

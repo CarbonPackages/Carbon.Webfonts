@@ -1,0 +1,8 @@
+{
+  "name": "Noto Sans Display",
+  "version": "v26",
+  "filename": "Noto-Sans-Display",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Sans-Display/Style.css",
+  "fontWeight": "100 900"
+}

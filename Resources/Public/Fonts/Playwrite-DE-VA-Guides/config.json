@@ -1,0 +1,8 @@
+{
+  "name": "Playwrite DE VA Guides",
+  "version": "v1",
+  "filename": "Playwrite-DE-VA-Guides",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Playwrite-DE-VA-Guides/Style.css",
+  "fontWeight": 400
+}

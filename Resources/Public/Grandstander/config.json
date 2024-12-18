@@ -1,8 +1,0 @@
-{
-  "name": "Grandstander",
-  "version": "v18",
-  "filename": "Grandstander",
-  "group": "Display",
-  "cssFile": "resource://Carbon.Webfonts/Grandstander/Style.css",
-  "fontWeight": "100 900"
-}

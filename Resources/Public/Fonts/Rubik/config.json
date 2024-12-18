@@ -1,0 +1,8 @@
+{
+  "name": "Rubik",
+  "version": "v28",
+  "filename": "Rubik",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Rubik/Style.css",
+  "fontWeight": "300 900"
+}

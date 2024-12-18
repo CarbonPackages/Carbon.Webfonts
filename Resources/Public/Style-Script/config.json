@@ -1,8 +1,0 @@
-{
-  "name": "Style Script",
-  "version": "v11",
-  "filename": "Style-Script",
-  "group": "Handwriting",
-  "cssFile": "resource://Carbon.Webfonts/Style-Script/Style.css",
-  "fontWeight": 400
-}

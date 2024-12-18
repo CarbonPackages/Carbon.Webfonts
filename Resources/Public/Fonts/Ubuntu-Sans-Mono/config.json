@@ -1,0 +1,8 @@
+{
+  "name": "Ubuntu Sans Mono",
+  "version": "v1",
+  "filename": "Ubuntu-Sans-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Ubuntu-Sans-Mono/Style.css",
+  "fontWeight": "400 700"
+}

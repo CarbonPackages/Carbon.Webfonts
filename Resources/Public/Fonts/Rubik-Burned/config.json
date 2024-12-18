@@ -1,0 +1,8 @@
+{
+  "name": "Rubik Burned",
+  "version": "v1",
+  "filename": "Rubik-Burned",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Rubik-Burned/Style.css",
+  "fontWeight": 400
+}

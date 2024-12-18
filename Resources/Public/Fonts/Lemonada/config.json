@@ -1,0 +1,8 @@
+{
+  "name": "Lemonada",
+  "version": "v28",
+  "filename": "Lemonada",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Lemonada/Style.css",
+  "fontWeight": "300 700"
+}

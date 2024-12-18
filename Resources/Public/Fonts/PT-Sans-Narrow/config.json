@@ -1,0 +1,11 @@
+{
+  "name": "PT Sans Narrow",
+  "version": "v18",
+  "filename": "PT-Sans-Narrow",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/PT-Sans-Narrow/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

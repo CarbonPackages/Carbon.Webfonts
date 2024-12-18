@@ -1,0 +1,12 @@
+{
+  "name": "Cinzel Decorative",
+  "version": "v17",
+  "filename": "Cinzel-Decorative",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Cinzel-Decorative/Style.css",
+  "fontWeight": [
+    400,
+    700,
+    900
+  ]
+}

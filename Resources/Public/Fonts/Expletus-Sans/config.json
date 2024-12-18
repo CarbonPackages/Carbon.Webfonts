@@ -1,0 +1,8 @@
+{
+  "name": "Expletus Sans",
+  "version": "v29",
+  "filename": "Expletus-Sans",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Expletus-Sans/Style.css",
+  "fontWeight": "400 700"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Cabin Sketch",
+  "version": "v21",
+  "filename": "Cabin-Sketch",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Cabin-Sketch/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

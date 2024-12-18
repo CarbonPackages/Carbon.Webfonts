@@ -1,0 +1,8 @@
+{
+  "name": "Monoton",
+  "version": "v20",
+  "filename": "Monoton",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Monoton/Style.css",
+  "fontWeight": 400
+}

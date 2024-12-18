@@ -1,0 +1,8 @@
+{
+  "name": "DynaPuff",
+  "version": "v4",
+  "filename": "DynaPuff",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/DynaPuff/Style.css",
+  "fontWeight": "400 700"
+}

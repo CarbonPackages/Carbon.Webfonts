@@ -1,0 +1,8 @@
+{
+  "name": "Raleway Dots",
+  "version": "v18",
+  "filename": "Raleway-Dots",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Raleway-Dots/Style.css",
+  "fontWeight": 400
+}

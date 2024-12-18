@@ -1,0 +1,8 @@
+{
+  "name": "Ubuntu Sans",
+  "version": "v2",
+  "filename": "Ubuntu-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Ubuntu-Sans/Style.css",
+  "fontWeight": "100 800"
+}

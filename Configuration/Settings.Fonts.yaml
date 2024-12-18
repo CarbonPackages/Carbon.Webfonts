@@ -65,66 +65,66 @@ Neos:
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Advent Pro:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Advent-Pro/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Advent-Pro/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Allison:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Allison/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Allison/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Alumni Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Alumni-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Alumni-Sans/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Anybody:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Anybody/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Anybody/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Atkinson Hyperlegible:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Atkinson-Hyperlegible/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Atkinson-Hyperlegible/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Brusher:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Brusher/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Brusher/Style.css
             fontWeight: 700
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Cabin:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Cabin/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Cabin/Style.css
             fontWeight: 400 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Cabin Sketch:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Cabin-Sketch/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Cabin-Sketch/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Caveat:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Caveat/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Caveat/Style.css
             fontWeight: 400 700
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Chivo:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Chivo/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Chivo/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Cinzel:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Cinzel/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Cinzel/Style.css
             fontWeight: 400 900
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Cinzel Decorative:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Cinzel-Decorative/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Cinzel-Decorative/Style.css
             fontWeight:
               - 400
               - 700
@@ -132,72 +132,72 @@ Neos:
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Crimson Pro:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Crimson-Pro/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Crimson-Pro/Style.css
             fontWeight: 200 900
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Dancing Script:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Dancing-Script/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Dancing-Script/Style.css
             fontWeight: 400 700
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Doto:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Doto/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Doto/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           DynaPuff:
             group: Display
-            cssFile: resource://Carbon.Webfonts/DynaPuff/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/DynaPuff/Style.css
             fontWeight: 400 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           El Messiri:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/El-Messiri/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/El-Messiri/Style.css
             fontWeight: 400 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Expletus Sans:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Expletus-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Expletus-Sans/Style.css
             fontWeight: 400 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Fontdiner Swanky:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Fontdiner-Swanky/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Fontdiner-Swanky/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Georama:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Georama/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Georama/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Grandstander:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Grandstander/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Grandstander/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Inter:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Inter/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Inter/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Inter Tight:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Inter-Tight/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Inter-Tight/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Jura:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Jura/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Jura/Style.css
             fontWeight: 300 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Kings:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Kings/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Kings/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Lato:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Lato/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Lato/Style.css
             fontWeight:
               - 100
               - 300
@@ -207,37 +207,37 @@ Neos:
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Lemonada:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Lemonada/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Lemonada/Style.css
             fontWeight: 300 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Lexend:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Lexend/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Lexend/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Lobster:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Lobster/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Lobster/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Lora:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Lora/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Lora/Style.css
             fontWeight: 400 700
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Maven Pro:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Maven-Pro/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Maven-Pro/Style.css
             fontWeight: 400 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Merienda:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Merienda/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Merienda/Style.css
             fontWeight: 300 900
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Merriweather:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Merriweather/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Merriweather/Style.css
             fontWeight:
               - 300
               - 400
@@ -246,165 +246,165 @@ Neos:
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Metamorphous:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Metamorphous/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Metamorphous/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Monoton:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Monoton/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Monoton/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Montserrat:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Montserrat/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Montserrat/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Noto Sans Display:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Noto-Sans-Display/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Noto-Sans-Display/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Noto Sans Mono:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Noto-Sans-Mono/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Noto-Sans-Mono/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Cut:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Cut/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Cut/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Flat:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Flat/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Flat/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Mono:
             group: Monospace
-            cssFile: resource://Carbon.Webfonts/Nova-Mono/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Mono/Style.css
             fontWeight: 400
             fallback: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace
           Nova Oval:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Oval/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Oval/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Round:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Round/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Round/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Script:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Script/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Script/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Slim:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Slim/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Slim/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nova Square:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Nova-Square/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nova-Square/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nunito:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Nunito/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nunito/Style.css
             fontWeight: 200 1000
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Nunito Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Nunito-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Nunito-Sans/Style.css
             fontWeight: 200 1000
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Open Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Open-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Open-Sans/Style.css
             fontWeight: 300 800
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Oswald:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Oswald/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Oswald/Style.css
             fontWeight: 200 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           PT Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/PT-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/PT-Sans/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           PT Sans Caption:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/PT-Sans-Caption/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/PT-Sans-Caption/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           PT Sans Narrow:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/PT-Sans-Narrow/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/PT-Sans-Narrow/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           PT Serif:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/PT-Serif/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/PT-Serif/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           PT Serif Caption:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/PT-Serif-Caption/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/PT-Serif-Caption/Style.css
             fontWeight: 400
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Pacifico:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Pacifico/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Pacifico/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Pirata One:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Pirata-One/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Pirata-One/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Playfair Display:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Playfair-Display/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Playfair-Display/Style.css
             fontWeight: 400 900
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Playwrite DE Grund Guides:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Playwrite-DE-Grund-Guides/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Playwrite-DE-Grund-Guides/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Playwrite DE LA Guides:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Playwrite-DE-LA-Guides/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Playwrite-DE-LA-Guides/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Playwrite DE SAS Guides:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Playwrite-DE-SAS-Guides/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Playwrite-DE-SAS-Guides/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Playwrite DE VA Guides:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Playwrite-DE-VA-Guides/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Playwrite-DE-VA-Guides/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Playwrite DK Loopet Guides:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Playwrite-DK-Loopet-Guides/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Playwrite-DK-Loopet-Guides/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Poppins:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Poppins/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Poppins/Style.css
             fontWeight:
               - 100
               - 200
@@ -418,151 +418,151 @@ Neos:
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Public Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Public-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Public-Sans/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Quicksand:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Quicksand/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Quicksand/Style.css
             fontWeight: 300 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Raleway:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Raleway/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Raleway/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Raleway Dots:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Raleway-Dots/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Raleway-Dots/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Readex Pro:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Readex-Pro/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Readex-Pro/Style.css
             fontWeight: 160 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Roboto Condensed:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Roboto-Condensed/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Roboto-Condensed/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Roboto Mono:
             group: Monospace
-            cssFile: resource://Carbon.Webfonts/Roboto-Mono/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Roboto-Mono/Style.css
             fontWeight: 100 700
             fallback: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace
           Roboto Serif:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Roboto-Serif/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Roboto-Serif/Style.css
             fontWeight: 100 900
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Roboto Slab:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Roboto-Slab/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Roboto-Slab/Style.css
             fontWeight: 100 900
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Rubik:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Rubik/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik/Style.css
             fontWeight: 300 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Beastly:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Beastly/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Beastly/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Bubbles:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Bubbles/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Bubbles/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Burned:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Burned/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Burned/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Dirt:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Dirt/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Dirt/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Distressed:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Distressed/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Distressed/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Doodle Shadow:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Doodle-Shadow/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Doodle-Shadow/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Glitch:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Glitch/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Glitch/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rubik Glitch Pop:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rubik-Glitch-Pop/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rubik-Glitch-Pop/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Rye:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Rye/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Rye/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           STIX Two Text:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/STIX-Two-Text/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/STIX-Two-Text/Style.css
             fontWeight: 400 700
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Shojumaru:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Shojumaru/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Shojumaru/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Smooch:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Smooch/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Smooch/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Smooch Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Smooch-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Smooch-Sans/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Source Sans 3:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Source-Sans-3/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Source-Sans-3/Style.css
             fontWeight: 200 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Space Grotesk:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Space-Grotesk/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Space-Grotesk/Style.css
             fontWeight: 300 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Stardos Stencil:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Stardos-Stencil/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Stardos-Stencil/Style.css
             fontWeight:
               - 400
               - 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Style Script:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Style-Script/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Style-Script/Style.css
             fontWeight: 400
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Tangerine:
             group: Handwriting
-            cssFile: resource://Carbon.Webfonts/Tangerine/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Tangerine/Style.css
             fontWeight:
               - 400
               - 700
             fallback: Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Ubuntu:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Ubuntu/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Ubuntu/Style.css
             fontWeight:
               - 300
               - 400
@@ -571,37 +571,37 @@ Neos:
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Ubuntu Condensed:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Ubuntu-Condensed/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Ubuntu-Condensed/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Ubuntu Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Ubuntu-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Ubuntu-Sans/Style.css
             fontWeight: 100 800
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Ubuntu Sans Mono:
             group: Monospace
-            cssFile: resource://Carbon.Webfonts/Ubuntu-Sans-Mono/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Ubuntu-Sans-Mono/Style.css
             fontWeight: 400 700
             fallback: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace
           UnifrakturMaguntia:
             group: Display
-            cssFile: resource://Carbon.Webfonts/UnifrakturMaguntia/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/UnifrakturMaguntia/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Urbanist:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Urbanist/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Urbanist/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Vollkorn:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Vollkorn/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Vollkorn/Style.css
             fontWeight: 400 900
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Vollkorn SC:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Vollkorn-SC/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Vollkorn-SC/Style.css
             fontWeight:
               - 400
               - 600
@@ -610,16 +610,16 @@ Neos:
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif
           Wallpoet:
             group: Display
-            cssFile: resource://Carbon.Webfonts/Wallpoet/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Wallpoet/Style.css
             fontWeight: 400
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Work Sans:
             group: Sans Serif
-            cssFile: resource://Carbon.Webfonts/Work-Sans/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Work-Sans/Style.css
             fontWeight: 100 900
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Yrsa:
             group: Serif
-            cssFile: resource://Carbon.Webfonts/Yrsa/Style.css
+            cssFile: resource://Carbon.Webfonts/Fonts/Yrsa/Style.css
             fontWeight: 300 700
             fallback: ui-serif,Georgia,Cambria,'Times New Roman',Times,serif

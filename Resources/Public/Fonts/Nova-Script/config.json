@@ -1,0 +1,8 @@
+{
+  "name": "Nova Script",
+  "version": "v26",
+  "filename": "Nova-Script",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Nova-Script/Style.css",
+  "fontWeight": 400
+}
