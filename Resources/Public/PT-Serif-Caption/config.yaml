@@ -1,6 +1,0 @@
-name: "PT Serif Caption"
-version: "v17"
-filename: "PT-Serif-Caption"
-group: "Serif"
-cssFile: "resource://Carbon.Webfonts/PT-Serif-Caption/Style.css"
-fontWeight: 400
