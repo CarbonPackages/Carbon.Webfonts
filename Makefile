@@ -2,6 +2,10 @@
 
 .DEFAULT_GOAL := production
 
+## Clean build files
+clean:
+	rm -rf Resources/Public/Editor
+
 ## Prettier files
 prettier:
 	pnpm prettier --write --no-error-on-unmatched-pattern '**/*.{yaml,md,js,json}'
@@ -13,9 +17,20 @@ production: install prettier build
 install:
 	pnpm install
 
+## Watch for changes in JS and CSS files
+watch:
+	make clean
+	pnpm watch
+
 ## Build production version
 build:
+	make clean
 	pnpm build
+
+## Build development version
+dev:
+	make clean
+	pnpm dev
 
 # Define colors
 GREEN  := $(shell tput -Txterm setaf 2)

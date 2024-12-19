@@ -35,7 +35,63 @@ Neos:
             # The fallback is automatically done by the group name, but if you want to override it, you can set it here
             fallback: "Helvetica, sans-serif"
             # If your font is a webfont, please add a css-file with all declartions in it. It has to be in the public folder
-            cssFile: resource://Vendor.Packages/Fonts/MyCustomFontName.css
+            cssFile: resource://Vendor.Package/Fonts/MyCustomFontName.css
+```
+
+This setting can also be added on a per property basis:
+
+```yaml
+Vendor.Package:Mixin.FontFamily:
+  properties:
+    type: string
+    ui:
+      inspector:
+        editor: "Carbon.Webfonts/FontFamily"
+        editorOptions:
+          allowEmpty:
+            true
+            # Set this to an object just like a font value to use a placeholder font
+          # It takes the same values as a font value, but adding the needed name
+          placeholderFont:
+            name: "Open Sans"
+            fallback: "Helvetica, Arial, sans-serif"
+          # A path to a CSS file with @font-face declarations.
+          # Can be a resource:// or a http(s):// path
+          cssFile: false
+          # This disables the fonts from this package
+          useCarbonWebfonts: false
+          # If set to false, only the font name is stored in the database
+          enableFallback: true
+          fonts:
+            Alumni Sans:
+              # Sets properties for showing in the editor preview. Does not affect saved value.
+              # defaults to fontWeight: 400 and fontStyle: normal
+              display:
+                fontWeight: 500
+                fontStyle: italic
+              group: Sans Serif
+              cssFile: resource://Vendor.Package/Fonts/Alumni-Sans.css
+              fontWeight: 100 900
+              fallback:
+                ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto
+                Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+            Atkinson Hyperlegible:
+              group: Sans Serif
+              cssFile: resource://Vendor.Package/Fonts/Atkinson-Hyperlegible.css
+              fontWeight:
+                - 400
+                - 700
+              fallback:
+                ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto
+                Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+            Impact:
+              group: Sans Serif
+              fontWeight:
+                - 400
+                - 700
+              fallback:
+                ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto
+                Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
 ```
 
 [packagist]: https://packagist.org/packages/carbon/webfonts

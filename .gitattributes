@@ -1,7 +1,10 @@
 /.editorconfig export-ignore
+/.eslintignore export-ignore
+/.eslintrc export-ignore
 /.gitattributes export-ignore
 /.github export-ignore
 /.gitignore export-ignore
+/.jshintrc
 /.nvmrc export-ignore
 /.prettierrc export-ignore
 /config.json export-ignore

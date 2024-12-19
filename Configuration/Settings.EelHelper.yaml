@@ -1,4 +1,0 @@
-Neos:
-  Fusion:
-    defaultContext:
-      Carbon.Webfonts: 'Carbon\Webfonts\EelHelper'

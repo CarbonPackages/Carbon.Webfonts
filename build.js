@@ -1,9 +1,14 @@
-import fs from "fs";
+import esbuild from "esbuild";
+import stylexPlugin from "@stylexjs/esbuild-plugin";
 import path from "path";
+import { fileURLToPath } from "url";
+import fs from "fs";
 import YAML from "yaml";
+import extensibilityMap from "@neos-project/neos-ui-extensibility/extensibilityMap.json" with { type: "json" };
 import additionalConfig from "./config.json" with { type: "json" };
 
 generateFontSettings();
+buildEditor();
 
 function generateFontSettings() {
     const folder = "Resources/Public/Fonts";
@@ -71,4 +76,55 @@ function generateFontSettings() {
     fs.writeFileSync(path.join(folder, "config.json"), JSON.stringify(json, null, 2));
 
     console.log(`\nWrote ${counter} fonts to the settings file.\n`);
+}
+
+function buildEditor() {
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
+    const watch = process.argv.includes("--watch");
+    const dev = process.argv.includes("--dev");
+    const minify = !dev && !watch;
+
+    /** @type {import("esbuild").BuildOptions} */
+    const options = {
+        logLevel: "info",
+        bundle: true,
+        minify,
+        sourcemap: watch,
+        target: "es2020",
+        legalComments: "none",
+        entryPoints: {
+            Main: "Resources/Private/Editor/index.js",
+        },
+        outdir: "Resources/Public/Editor",
+        alias: extensibilityMap,
+        format: "esm",
+        splitting: true,
+        loader: {
+            ".js": "jsx",
+        },
+        plugins: [
+            stylexPlugin({
+                useCSSLayers: true,
+                dev: false,
+                generatedCSSFileName: path.resolve(__dirname, "Resources/Public/Editor/Main.css"),
+                stylexImports: ["@stylexjs/stylex"],
+                unstable_moduleResolution: {
+                    type: "commonJS",
+                    rootDir: __dirname,
+                },
+            }),
+        ],
+    };
+
+    if (minify) {
+        options.drop = ["debugger"];
+        options.pure = ["console.log"];
+        options.dropLabels = ["DEV"];
+    }
+
+    if (watch) {
+        esbuild.context(options).then((ctx) => ctx.watch());
+    } else {
+        esbuild.build(options);
+    }
 }

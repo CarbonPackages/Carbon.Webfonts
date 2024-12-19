@@ -1,0 +1,43 @@
+Neos:
+  Fusion:
+    defaultContext:
+      Carbon.Webfonts: 'Carbon\Webfonts\EelHelper'
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          Carbon.Webfonts:
+            - 'Main'
+    Ui:
+      resources:
+        javascript:
+          Carbon.Webfonts:
+            resource: resource://Carbon.Webfonts/Public/Editor/Main.js
+            attributes:
+              type: 'module'
+        stylesheets:
+          Carbon.Webfonts:
+            resource: resource://Carbon.Webfonts/Public/Editor/Main.css
+
+      frontendConfiguration:
+        'Carbon.Webfonts.FontFamily':
+          disabled: false
+          readonly: false
+          allowEmpty: true
+          placeholder: ''
+          placeholderFont: false
+          # A path to a CSS file with @font-face declarations. Can be a resource:// or a http(s):// path
+          cssFile: false
+
+          # Sort the fonts by name
+          sortFonts: true
+
+          # Use the fonts from Carbon Webfonts
+          useCarbonWebfonts: true
+
+          # If set to false, only the font name is stored in the database
+          enableFallback: true
+          # Show icon if the font has a font file or a css file
+          showIcon: true
+          # List of available fonts
+          # fonts:
