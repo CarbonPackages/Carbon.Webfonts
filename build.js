@@ -7,8 +7,8 @@ import YAML from "yaml";
 import extensibilityMap from "@neos-project/neos-ui-extensibility/extensibilityMap.json" with { type: "json" };
 import additionalConfig from "./config.json" with { type: "json" };
 
-generateFontSettings();
 buildEditor();
+generateFontSettings();
 
 function generateFontSettings() {
     const folder = "Resources/Public/Fonts";
@@ -104,7 +104,8 @@ function buildEditor() {
         },
         plugins: [
             stylexPlugin({
-                useCSSLayers: true,
+                classNamePrefix: "webfonts-",
+                useCSSLayers: false,
                 dev: false,
                 generatedCSSFileName: path.resolve(__dirname, "Resources/Public/Editor/Main.css"),
                 stylexImports: ["@stylexjs/stylex"],
