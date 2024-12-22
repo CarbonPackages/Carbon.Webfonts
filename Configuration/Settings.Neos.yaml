@@ -40,4 +40,5 @@ Neos:
           # Show icon if the font has a font file or a css file
           showIcon: true
           # List of available fonts
+          # Read more about this in the README.md
           # fonts:
