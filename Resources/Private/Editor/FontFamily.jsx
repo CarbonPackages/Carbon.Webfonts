@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon, IconButton, TextInput } from "@neos-project/react-ui-components";
-import { injectNeosProps, getFontCollection, injectStylesheet, beautifyFontOutput } from "./Helper";
+import { injectNeosProps, getFontCollection, injectStylesheet } from "./Helper";
+import FontFamilyPreview from "./Component/FontFamilyPreview";
 import { DropDown } from "@neos-project/react-ui-components";
 import fuzzysearch from "fuzzysearch";
 import * as stylex from "@stylexjs/stylex";
@@ -26,10 +27,6 @@ const styles = stylex.create({
         fontStyle,
         fontSize: 18,
     }),
-    fontClip: {
-        overflowX: "clip",
-        textOverflow: "ellipsis",
-    },
     header: {
         display: "flex",
         justifyContent: "space-between",
@@ -40,9 +37,6 @@ const styles = stylex.create({
         ":where(*)>*": {
             pointerEvents: "none",
         },
-    },
-    placeholder: {
-        opacity: 0.65,
     },
     highlight: {
         borderRadius: 2,
@@ -84,17 +78,6 @@ const styles = stylex.create({
             outline: "1px solid var(--colors-PrimaryBlue)",
         },
     },
-    fontInHeader: {
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        gap: "var(--spacing-Quarter)",
-        marginLeft: "calc(var(--spacing-Full) * -1)",
-        paddingLeft: "var(--spacing-Full)",
-        overflow: "hidden",
-        lineHeight: 1,
-        height: 40,
-    },
     block: {
         display: "block !important",
     },
@@ -115,13 +98,13 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
         cssFile,
         sortFonts,
         useCarbonWebfonts,
+        placeholder,
     } = {
         ...defaultOptions,
         ...config,
         ...options,
     };
 
-    let { placeholder } = { ...defaultOptions, ...config, ...options };
     const carbonFontSettings = useCarbonWebfonts ? carbonWebfonts : {};
     const { fonts, flat } = getFontCollection(
         { ...carbonFontSettings, ...defaultOptions.fonts, ...config.fonts, ...options.fonts },
@@ -131,36 +114,9 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
     );
 
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedFont, setSelectedFont] = useState(null);
     const [searchTerm, setSearchTerm] = useState("");
-    const [headerTitle, setHeaderTitle] = useState("");
+
     injectStylesheet(cssFile);
-
-    useEffect(() => {
-        if (!value) {
-            setSelectedFont(null);
-            return;
-        }
-        const [font] = value.split(",");
-        setSelectedFont(flat[font.trim()]);
-    }, [value]);
-
-    useEffect(() => {
-        let title = selectedFont ? selectedFont.label : placeholderFont?.label || placeholderFont?.name;
-        if (enableFallback && selectedFont?.fallback) {
-            title += `, ${selectedFont.fallback}`;
-        }
-        if (enableFallback && !selectedFont && placeholderFont?.fallback) {
-            title += `, ${placeholderFont.fallback}`;
-        }
-        setHeaderTitle(beautifyFontOutput(title));
-    }, [selectedFont]);
-
-    if (placeholder) {
-        placeholder = i18nRegistry.translate(placeholder);
-    }
-
-    const fontPlaceholderLabel = beautifyFontOutput(placeholderFont?.label || placeholderFont?.name);
 
     return (
         <DropDown.Stateless
@@ -171,27 +127,13 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
         >
             <DropDown.Header id={id} className={stylex.props(!!value && allowEmpty && styles.header).className}>
                 {!isOpen && (
-                    <span
-                        title={headerTitle}
-                        {...stylex.props(
-                            !value && styles.placeholder,
-                            styles.fontInHeader,
-                            value && styles.font(value, selectedFont?.display?.fontWeight, selectedFont?.display?.fontStyle),
-                            !value &&
-                                !!placeholderFont?.name &&
-                                styles.font(
-                                    `${placeholderFont.name}${enableFallback && !!placeholderFont.fallback ? `, ${placeholderFont.fallback}` : ""}`,
-                                ),
-                        )}
-                    >
-                        {!!(selectedFont?.label || fontPlaceholderLabel) ? (
-                            <span {...stylex.props(styles.fontClip)}>
-                                {selectedFont?.label || fontPlaceholderLabel}
-                            </span>
-                        ) : (
-                            placeholder
-                        )}
-                    </span>
+                    <FontFamilyPreview
+                        fontFamily={value}
+                        fonts={flat}
+                        enableFallback={enableFallback}
+                        placeholderFont={placeholderFont}
+                        placeholder={placeholder}
+                    />
                 )}
                 {isOpen && (
                     <TextInput
@@ -231,7 +173,10 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
                                         {...stylex.props(styles.button)}
                                     >
                                         <span
-                                            {...stylex.props(styles.font(value, display?.fontWeight, display?.fontStyle), styles.bigFont)}
+                                            {...stylex.props(
+                                                styles.font(value, display?.fontWeight, display?.fontStyle),
+                                                styles.bigFont,
+                                            )}
                                         >
                                             {label}
                                         </span>

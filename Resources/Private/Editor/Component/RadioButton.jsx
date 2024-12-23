@@ -16,12 +16,12 @@ const styles = stylex.create({
         },
     },
     label: {
-        display: 'flex',
-        alignItems: 'center',
-        cursor: 'pointer',
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
         minWidth: 22,
         minHeight: 22,
-        padding: '0 !important',
+        padding: "0 !important",
         gap: "var(--spacing-Half)",
         marginBottom: "var(--spacing-Quarter)",
         ":last-child": {
@@ -29,24 +29,24 @@ const styles = stylex.create({
         },
     },
     input: {
-        position: 'absolute',
+        position: "absolute",
         left: -9999,
     },
     radio: (checked) => ({
-        display: 'flex',
+        display: "flex",
         width: 20,
         height: 20,
-        backgroundColor: checked ? "var(--colors-PrimaryBlue)" : 'var(--colors-ContrastDark)',
-        borderColor: checked ? "var(--colors-PrimaryBlue)" : 'var(--colors-ContrastBrighter)',
+        backgroundColor: checked ? "var(--colors-PrimaryBlue)" : "var(--colors-ContrastDark)",
+        borderColor: checked ? "var(--colors-PrimaryBlue)" : "var(--colors-ContrastBrighter)",
         borderWidth: 1,
-        borderStyle: 'solid',
+        borderStyle: "solid",
         borderRadius: 9999,
-        alignItems: 'center',
-        justifyContent: 'center',
+        alignItems: "center",
+        justifyContent: "center",
     }),
     dot: (checked) => ({
         display: "block",
-        background: checked ? "var(--colors-ContrastBrightest)" : 'var(--colors-UncheckedCheckboxTick)',
+        background: checked ? "var(--colors-ContrastBrightest)" : "var(--colors-UncheckedCheckboxTick)",
         borderRadius: 9999,
         width: "var(--spacing-Half)",
         height: "var(--spacing-Half)",
@@ -57,7 +57,13 @@ export default function RadioButton({ value, label, highlight, onChange = () => 
     const isCurrent = currentValue == value;
     return (
         <label {...stylex.props(styles.label, highlight && isCurrent && styles.highlight, disabled && styles.disabled)}>
-            <input {...stylex.props(styles.input)} type="radio" value={value} checked={isCurrent} onChange={() => onChange(value)} />
+            <input
+                {...stylex.props(styles.input)}
+                type="radio"
+                value={value}
+                checked={isCurrent}
+                onChange={() => onChange(value)}
+            />
             <span {...stylex.props(styles.radio(isCurrent))}>
                 <span {...stylex.props(styles.dot(isCurrent))}></span>
             </span>

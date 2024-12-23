@@ -79,6 +79,7 @@ function generateFontSettings() {
 }
 
 function buildEditor() {
+    const outdir = "Resources/Public/Editor";
     const __dirname = path.dirname(fileURLToPath(import.meta.url));
     const watch = process.argv.includes("--watch");
     const dev = process.argv.includes("--dev");
@@ -92,10 +93,8 @@ function buildEditor() {
         sourcemap: watch,
         target: "es2020",
         legalComments: "none",
-        entryPoints: {
-            Main: "Resources/Private/Editor/index.js",
-        },
-        outdir: "Resources/Public/Editor",
+        entryPoints: ["Resources/Private/Editor/Main.js", "Resources/Private/Editor/*.jsx"],
+        outdir,
         external: ["/_Resources/Static/Packages/*"],
         alias: extensibilityMap,
         format: "esm",
@@ -108,7 +107,7 @@ function buildEditor() {
                 classNamePrefix: "webfonts-",
                 useCSSLayers: false,
                 dev: false,
-                generatedCSSFileName: path.resolve(__dirname, "Resources/Public/Editor/Main.css"),
+                generatedCSSFileName: path.resolve(__dirname, outdir, "Main.css"),
                 stylexImports: ["@stylexjs/stylex"],
                 unstable_moduleResolution: {
                     type: "commonJS",

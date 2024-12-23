@@ -47,9 +47,9 @@ Neos:
           readonly: false
           allowEmpty: true
           useCarbonWebfonts: true
-          placeholder: ""
+          placeholder: ''
           # Use ClientEval: node.properties.fontFamily to get the selected font family
-          choosenFont: ""
+          choosenFont: ''
           # List of available fonts
           # Read more about this in the README.md
           # fonts:
