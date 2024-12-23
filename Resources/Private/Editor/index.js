@@ -4,6 +4,7 @@ import LoadingAnimation from "carbon-neos-loadinganimation/LoadingWithStyleX";
 
 const editors = {
     FontFamily: () => import("./FontFamily"),
+    FontWeight: () => import("./FontWeight"),
 };
 
 function generateLazyEditor(name) {

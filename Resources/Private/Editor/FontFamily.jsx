@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Icon, IconButton, TextInput } from "@neos-project/react-ui-components";
-import { neos } from "@neos-project/neos-ui-decorators";
+import { injectNeosProps, getFontCollection, injectStylesheet, beautifyFontOutput } from "./Helper";
 import { DropDown } from "@neos-project/react-ui-components";
 import fuzzysearch from "fuzzysearch";
-import { getFontCollection, injectStylesheet, beautifyFontOutput } from "./Helper";
 import * as stylex from "@stylexjs/stylex";
 
 const defaultOptions = {
@@ -165,9 +164,7 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
 
     return (
         <DropDown.Stateless
-            className={
-                stylex.props(highlight && styles.highlight, readonly || (disabled && styles.disabled)).className
-            }
+            className={stylex.props(highlight && styles.highlight, readonly || (disabled && styles.disabled)).className}
             isOpen={isOpen}
             onToggle={() => setIsOpen(!isOpen)}
             onClose={() => setIsOpen(false)}
@@ -175,26 +172,26 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
             <DropDown.Header id={id} className={stylex.props(!!value && allowEmpty && styles.header).className}>
                 {!isOpen && (
                     <span
-                    title={headerTitle}
-                    {...stylex.props(
-                        !value && styles.placeholder,
-                        styles.fontInHeader,
-                        value && styles.font(value, selectedFont?.fontWeight, selectedFont?.fontStyle),
-                        !value &&
-                            !!placeholderFont?.name &&
-                            styles.font(
-                                `${placeholderFont.name}${enableFallback && !!placeholderFont.fallback ? `, ${placeholderFont.fallback}` : ""}`,
-                            )
-                    )}
-                >
-                    {!!(selectedFont?.label || fontPlaceholderLabel) ? (
-                        <span {...stylex.props(styles.fontClip)}>
-                            {selectedFont?.label || fontPlaceholderLabel}
-                        </span>
-                    ) : (
-                        placeholder
-                    )}
-                </span>
+                        title={headerTitle}
+                        {...stylex.props(
+                            !value && styles.placeholder,
+                            styles.fontInHeader,
+                            value && styles.font(value, selectedFont?.display?.fontWeight, selectedFont?.display?.fontStyle),
+                            !value &&
+                                !!placeholderFont?.name &&
+                                styles.font(
+                                    `${placeholderFont.name}${enableFallback && !!placeholderFont.fallback ? `, ${placeholderFont.fallback}` : ""}`,
+                                ),
+                        )}
+                    >
+                        {!!(selectedFont?.label || fontPlaceholderLabel) ? (
+                            <span {...stylex.props(styles.fontClip)}>
+                                {selectedFont?.label || fontPlaceholderLabel}
+                            </span>
+                        ) : (
+                            placeholder
+                        )}
+                    </span>
                 )}
                 {isOpen && (
                     <TextInput
@@ -223,7 +220,7 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
                             {i18nRegistry.translate(`fontType.${type}`, type, [], "Carbon.Webfonts", "Main")}
                         </div>
 
-                        {Object.values(items).map(({ label, cssFile, value, fontWeight, fontStyle }) => {
+                        {Object.values(items).map(({ label, cssFile, value, display }) => {
                             if (!searchTerm || fuzzysearch(searchTerm.toLowerCase(), label.toLowerCase())) {
                                 return (
                                     <button
@@ -234,10 +231,7 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
                                         {...stylex.props(styles.button)}
                                     >
                                         <span
-                                            {...stylex.props(
-                                                styles.font(value, fontWeight, fontStyle),
-                                                styles.bigFont,
-                                            )}
+                                            {...stylex.props(styles.font(value, display?.fontWeight, display?.fontStyle), styles.bigFont)}
                                         >
                                             {label}
                                         </span>
@@ -256,10 +250,4 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
     );
 }
 
-const neosifier = neos((globalRegistry) => ({
-    i18nRegistry: globalRegistry.get("i18n"),
-    config: globalRegistry.get("frontendConfiguration").get("Carbon.Webfonts.FontFamily"),
-    carbonWebfonts: globalRegistry.get("frontendConfiguration").get("CarbonWebfonts"),
-}));
-
-export default neosifier(FontFamily);
+export default injectNeosProps(FontFamily, "FontFamily");

@@ -96,6 +96,7 @@ function buildEditor() {
             Main: "Resources/Private/Editor/index.js",
         },
         outdir: "Resources/Public/Editor",
+        external: ["/_Resources/Static/Packages/*"],
         alias: extensibilityMap,
         format: "esm",
         splitting: true,
