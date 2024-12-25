@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Button } from "@neos-project/react-ui-components";
-import { injectNeosProps, getFontCollection, getClosestNumber } from "./Helper";
+import injectNeosProps from "./Component/injectNeosProps";
+import { getFontCollection, getFontWeightConfig } from "./Helper";
 import RangeEditor from "/_Resources/Static/Packages/Carbon.RangeEditor/RangeEditor.js";
 import RadioButton from "./Component/RadioButton";
 
@@ -30,7 +31,7 @@ function FontWeight({ id, value, commit, options, highlight, i18nRegistry, onEnt
     });
 
     const [font, setFont] = useState(null);
-    const [fontWeights, setFontWeights] = useState(null);
+    const [fontWeight, setFontWeight] = useState(null);
     const [type, setType] = useState(null);
 
     const commitIfChanged = useCallback(
@@ -54,48 +55,22 @@ function FontWeight({ id, value, commit, options, highlight, i18nRegistry, onEnt
     }, [choosenFont]);
 
     useEffect(() => {
-        if (!font) {
-            setFontWeights(null);
+        const obj = getFontWeightConfig(font, value, flat);
+        if (!obj) {
+            setFontWeight(null);
             setType(null);
             return;
         }
-        const [firstFont] = font.split(",");
-        const selectedFont = flat[firstFont.trim()];
-        let fontWeight = selectedFont?.fontWeight;
-        if (!fontWeight) {
-            setFontWeights(null);
-            setType(null);
-            return;
-        }
-        if (typeof fontWeight === "string") {
-            setType("variable");
-            fontWeight = fontWeight.split(" ").sort();
-            const min = parseInt(fontWeight[0]);
-            const max = parseInt(fontWeight[fontWeight.length - 1]);
-            if (value < min) {
-                commitIfChanged(min);
-            }
-            if (value > max) {
-                commitIfChanged(max);
-            }
-
-            setFontWeights({ min, max });
-            return;
-        }
-
-        setType("fixed");
-        if (!Array.isArray(fontWeight)) {
-            fontWeight = [fontWeight];
-        }
-        setFontWeights(fontWeight);
-        commitIfChanged(getClosestNumber(fontWeight, value));
+        commitIfChanged(obj.value);
+        setType(obj.type);
+        setFontWeight(obj.fontWeight);
     }, [font]);
 
     return (
         <>
             {type === "variable" && (
                 <RangeEditor
-                    options={fontWeights}
+                    options={fontWeight}
                     id={id}
                     value={value}
                     highlight={highlight}
@@ -104,8 +79,8 @@ function FontWeight({ id, value, commit, options, highlight, i18nRegistry, onEnt
                 />
             )}
             {type === "fixed" &&
-                Array.isArray(fontWeights) &&
-                fontWeights.map((weight) => (
+                Array.isArray(fontWeight) &&
+                fontWeight.map((weight) => (
                     <RadioButton
                         key={weight}
                         value={weight}

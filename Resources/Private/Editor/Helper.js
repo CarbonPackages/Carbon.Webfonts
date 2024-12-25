@@ -1,21 +1,72 @@
-import { neos } from "@neos-project/neos-ui-decorators";
+export { default as FontFamilyPreview } from "./Component/FontFamilyPreview";
 
-export function injectNeosProps(component, configKey) {
-    const neosifier = neos((globalRegistry) => ({
-        i18nRegistry: globalRegistry.get("i18n"),
-        config: globalRegistry.get("frontendConfiguration").get(`Carbon.Webfonts.${configKey}`),
-        carbonWebfonts: globalRegistry.get("frontendConfiguration").get("CarbonWebfonts"),
-    }));
-    return neosifier(component);
+export function getFontWeightConfig(fontName, value, fontList, defaultValue = 400) {
+    const font = getFontBasedOnValue(fontName, fontList);
+    if (!font) {
+        return null;
+    }
+
+    let fontWeight = font?.fontWeight;
+    if (!fontWeight) {
+        return null;
+    }
+    if (typeof fontWeight === "string") {
+        const array = fontWeight.split(" ").sort();
+        const min = parseInt(array[0]);
+        const max = parseInt(array[array.length - 1]);
+        fontWeight = {
+            min,
+            max,
+        };
+        return {
+            type: "variable",
+            value: getFontWeight(fontWeight, value, defaultValue),
+            font,
+            fontWeight,
+        };
+    }
+
+    if (!Array.isArray(fontWeight)) {
+        fontWeight = [fontWeight];
+    }
+    return {
+        type: "fixed",
+        value: getFontWeight(fontWeight, value, defaultValue),
+        font,
+        fontWeight: fontWeight,
+    };
 }
 
-export function getClosestNumber(numbers, value) {
-    return numbers.reduce((prev, curr) => (Math.abs(curr - value) < Math.abs(prev - value) ? curr : prev));
+export function getFontWeight(numberArrayOrObject, value, defaultValue = 400) {
+    if (typeof value !== "number") {
+        value = defaultValue;
+    }
+    if (!Array.isArray(numberArrayOrObject)) {
+        const { min, max } = numberArrayOrObject;
+        if (value < min) {
+            return min;
+        }
+        if (value > max) {
+            return max;
+        }
+        return value;
+    }
+
+    return numberArrayOrObject.reduce((prev, curr) => (Math.abs(curr - value) < Math.abs(prev - value) ? curr : prev));
 }
 
-export function getFontCollection(fonts, enableFallback, placeholderFont, sortFonts) {
+export function getFontBasedOnValue(value, fonts) {
+    if (!value || typeof value !== "string") {
+        return null;
+    }
+    const [font] = value.split(",");
+    const selectedFont = fonts[font.trim()];
+    return selectedFont || null;
+}
+
+export function getFontCollection(fonts, enableFallback = true, placeholderFont = null, sortFonts = true) {
     const object = {
-        fonts: {},
+        nested: {},
         flat: {},
     };
     if (placeholderFont && placeholderFont.name) {
@@ -28,16 +79,16 @@ export function getFontCollection(fonts, enableFallback, placeholderFont, sortFo
         }
         const { type, ...result } = generateFontObject(key, item, enableFallback);
 
-        if (!object.fonts[type]) {
-            object.fonts[type] = {};
+        if (!object.nested[type]) {
+            object.nested[type] = {};
         }
         object.flat[key] = result;
-        object.fonts[type][key] = result;
+        object.nested[type][key] = result;
     }
     if (sortFonts) {
-        for (const type in object.fonts) {
-            object.fonts[type] = Object.fromEntries(
-                Object.entries(object.fonts[type]).sort(([, a], [, b]) => a.label.localeCompare(b.label)),
+        for (const type in object.nested) {
+            object.nested[type] = Object.fromEntries(
+                Object.entries(object.nested[type]).sort(([, a], [, b]) => a.label.localeCompare(b.label)),
             );
         }
     }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon, IconButton, TextInput } from "@neos-project/react-ui-components";
-import { injectNeosProps, getFontCollection, injectStylesheet } from "./Helper";
+import injectNeosProps from "./Component/injectNeosProps";
+import { getFontCollection, injectStylesheet } from "./Helper";
 import FontFamilyPreview from "./Component/FontFamilyPreview";
 import { DropDown } from "@neos-project/react-ui-components";
 import fuzzysearch from "fuzzysearch";
@@ -17,7 +18,6 @@ const defaultOptions = {
     placeholderFont: false,
     enableFallback: true,
     showIcon: true,
-    fonts: {},
 };
 
 const styles = stylex.create({
@@ -81,13 +81,28 @@ const styles = stylex.create({
     block: {
         display: "block !important",
     },
+    maxHeight: {
+        maxHeight: "var(--fontFamily-MaxHeight, none)",
+        overflowY: "auto",
+    },
     searchInput: {
         marginLeft: "calc(var(--spacing-Full) * -1)",
         width: "calc(100% + var(--spacing-Full))",
     },
 });
 
-function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnterKey, config, carbonWebfonts }) {
+function FontFamily({
+    id,
+    value,
+    commit,
+    options,
+    highlight,
+    i18nRegistry,
+    onEnterKey,
+    config,
+    carbonWebfonts,
+    scrollable = true,
+}) {
     const {
         disabled,
         readonly,
@@ -106,8 +121,8 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
     };
 
     const carbonFontSettings = useCarbonWebfonts ? carbonWebfonts : {};
-    const { fonts, flat } = getFontCollection(
-        { ...carbonFontSettings, ...defaultOptions.fonts, ...config.fonts, ...options.fonts },
+    const fonts = getFontCollection(
+        { ...carbonFontSettings, ...config.fonts, ...options.fonts },
         enableFallback,
         !placeholder && placeholderFont ? placeholderFont : null,
         sortFonts,
@@ -125,24 +140,28 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
             onToggle={() => setIsOpen(!isOpen)}
             onClose={() => setIsOpen(false)}
         >
-            <DropDown.Header id={id} className={stylex.props(!!value && allowEmpty && styles.header).className}>
-                {!isOpen && (
-                    <FontFamilyPreview
-                        fontFamily={value}
-                        fonts={flat}
-                        enableFallback={enableFallback}
-                        placeholderFont={placeholderFont}
-                        placeholder={placeholder}
-                    />
-                )}
-                {isOpen && (
+            <DropDown.Header className={stylex.props(!!value && allowEmpty && styles.header).className}>
+                {isOpen ? (
                     <TextInput
+                        id={id}
                         value={searchTerm}
                         onChange={setSearchTerm}
                         placeholder={i18nRegistry.translate("search", "Neos.Neos", "Main")}
                         allowEmpty={true}
                         setFocus={true}
-                        containerClassName={stylex.props(styles.searchInput).className}
+                        containerClassName={
+                            stylex.props(styles.searchInput, isOpen && styles.searchInputVisible).className
+                        }
+                    />
+                ) : (
+                    <FontFamilyPreview
+                        id={id}
+                        addTitle={true}
+                        fontFamily={value}
+                        fonts={fonts.flat}
+                        enableFallback={enableFallback}
+                        placeholderFont={placeholderFont}
+                        placeholder={placeholder}
                     />
                 )}
                 {allowEmpty && !!value && (
@@ -155,40 +174,47 @@ function FontFamily({ id, value, commit, options, highlight, i18nRegistry, onEnt
                     />
                 )}
             </DropDown.Header>
-            <DropDown.Contents scrollable={true} className={stylex.props(isOpen && styles.block).className}>
-                {Object.entries(fonts).map(([type, items]) => (
-                    <div key={type}>
-                        <div {...stylex.props(styles.fontGroup)}>
-                            {i18nRegistry.translate(`fontType.${type}`, type, [], "Carbon.Webfonts", "Main")}
-                        </div>
+            <DropDown.Contents
+                scrollable={scrollable}
+                className={stylex.props(isOpen && styles.block, !scrollable && styles.maxHeight).className}
+            >
+                {Object.entries(fonts.nested).map(([type, items]) => (
+                    <li key={type}>
+                        <ul>
+                            <li {...stylex.props(styles.fontGroup)}>
+                                {i18nRegistry.translate(`fontType.${type}`, type, [], "Carbon.Webfonts", "Main")}
+                            </li>
 
-                        {Object.values(items).map(({ label, cssFile, value, display }) => {
-                            if (!searchTerm || fuzzysearch(searchTerm.toLowerCase(), label.toLowerCase())) {
-                                return (
-                                    <button
-                                        key={label}
-                                        onClick={() => {
-                                            commit(value);
-                                        }}
-                                        {...stylex.props(styles.button)}
-                                    >
-                                        <span
-                                            {...stylex.props(
-                                                styles.font(value, display?.fontWeight, display?.fontStyle),
-                                                styles.bigFont,
-                                            )}
-                                        >
-                                            {label}
-                                        </span>
-                                        {!!cssFile && showIcon && (
-                                            <Icon icon="link" title={cssFile !== true ? cssFile : null} />
-                                        )}
-                                    </button>
-                                );
-                            }
-                            return null;
-                        })}
-                    </div>
+                            {Object.values(items).map(({ label, cssFile, value, display }) => {
+                                if (!searchTerm || fuzzysearch(searchTerm.toLowerCase(), label.toLowerCase())) {
+                                    return (
+                                        <li>
+                                            <button
+                                                key={label}
+                                                onClick={() => {
+                                                    commit(value);
+                                                }}
+                                                {...stylex.props(styles.button)}
+                                            >
+                                                <span
+                                                    {...stylex.props(
+                                                        styles.font(value, display?.fontWeight, display?.fontStyle),
+                                                        styles.bigFont,
+                                                    )}
+                                                >
+                                                    {label}
+                                                </span>
+                                                {!!cssFile && showIcon && (
+                                                    <Icon icon="link" title={cssFile !== true ? cssFile : null} />
+                                                )}
+                                            </button>
+                                        </li>
+                                    );
+                                }
+                                return null;
+                            })}
+                        </ul>
+                    </li>
                 ))}
             </DropDown.Contents>
         </DropDown.Stateless>

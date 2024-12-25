@@ -93,7 +93,7 @@ function buildEditor() {
         sourcemap: watch,
         target: "es2020",
         legalComments: "none",
-        entryPoints: ["Resources/Private/Editor/Main.js", "Resources/Private/Editor/*.jsx"],
+        entryPoints: ["Resources/Private/Editor/*.js", "Resources/Private/Editor/*.jsx"],
         outdir,
         external: ["/_Resources/Static/Packages/*"],
         alias: extensibilityMap,
