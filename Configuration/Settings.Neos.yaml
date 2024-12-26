@@ -45,7 +45,6 @@ Neos:
         'Carbon.Webfonts.FontWeight':
           disabled: false
           readonly: false
-          allowEmpty: true
           useCarbonWebfonts: true
           placeholder: ''
           # Use ClientEval: node.properties.fontFamily to get the selected font family

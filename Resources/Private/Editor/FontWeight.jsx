@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { Button } from "@neos-project/react-ui-components";
+import { Button, SelectBox } from "@neos-project/react-ui-components";
 import injectNeosProps from "./Component/injectNeosProps";
 import { getFontCollection, getFontWeightConfig } from "./Helper";
 import RangeEditor from "/_Resources/Static/Packages/Carbon.RangeEditor/RangeEditor.js";
@@ -8,15 +8,14 @@ import RadioButton from "./Component/RadioButton";
 const defaultOptions = {
     disabled: false,
     readonly: false,
-    allowEmpty: true,
     useCarbonWebfonts: true,
     placeholder: "",
     choosenFont: "",
     fonts: {},
 };
 
-function FontWeight({ id, value, commit, options, highlight, i18nRegistry, onEnterKey, config, carbonWebfonts }) {
-    const { disabled, readonly, allowEmpty, useCarbonWebfonts, placeholder, choosenFont } = {
+function FontWeight({ id, value, commit, options, className, highlight, i18nRegistry, onEnterKey, config, carbonWebfonts }) {
+    const { disabled, readonly, useCarbonWebfonts, placeholder, choosenFont } = {
         ...defaultOptions,
         ...config,
         ...options,
@@ -66,34 +65,62 @@ function FontWeight({ id, value, commit, options, highlight, i18nRegistry, onEnt
         setFontWeight(obj.fontWeight);
     }, [font]);
 
+    if (!!value && type !== "variable" && type !== "fixed") {
+        return (
+            <RadioButton disabled value={value} highlight={highlight} currentValue={value} />
+        )
+    }
+
+    if (type === "variable") {
+        return (
+            <RangeEditor
+                options={fontWeight}
+                id={id}
+                value={value}
+                highlight={highlight}
+                onEnterKey={onEnterKey}
+                commit={commitIfChanged}
+                disabled={disabled}
+                readonly={readonly}
+            />
+        )
+    }
+
+    // Fixed
+    if (!Array.isArray(fontWeight)) {
+        return null;
+    }
+
+    if (fontWeight.length < 4) {
+        return fontWeight.map((weight) => (
+            <RadioButton
+                key={weight}
+                value={weight}
+                highlight={highlight}
+                onChange={commitIfChanged}
+                currentValue={value}
+                disabled={disabled || readonly}
+            />
+        ))
+    }
+
+    const selectBoxOptions = fontWeight.map((weight) => ({
+        label: weight,
+        value: weight,
+    }));
+
     return (
-        <>
-            {type === "variable" && (
-                <RangeEditor
-                    options={fontWeight}
-                    id={id}
-                    value={value}
-                    highlight={highlight}
-                    onEnterKey={onEnterKey}
-                    commit={commitIfChanged}
-                />
-            )}
-            {type === "fixed" &&
-                Array.isArray(fontWeight) &&
-                fontWeight.map((weight) => (
-                    <RadioButton
-                        key={weight}
-                        value={weight}
-                        highlight={highlight}
-                        onChange={commitIfChanged}
-                        currentValue={value}
-                    />
-                ))}
-            {!!value && type !== "variable" && type !== "fixed" && (
-                <RadioButton disabled value={value} highlight={highlight} currentValue={value} />
-            )}
-        </>
-    );
+        <SelectBox
+            allowEmpty={false}
+            id={id}
+            options={selectBoxOptions}
+            value={value}
+            className={className}
+            onValueChange={commitIfChanged}
+            disabled={disabled}
+            readonly={readonly}
+        />
+    )
 }
 
 export default injectNeosProps(FontWeight, "FontWeight");
