@@ -29,7 +29,7 @@
         },
         "Impact": {
             "group": "Sans Serif",
-            "fontWeight": [400, 700],
+            "fontWeight": 400,
             "webfont": false
         },
         "Lucida Sans Unicode": {
