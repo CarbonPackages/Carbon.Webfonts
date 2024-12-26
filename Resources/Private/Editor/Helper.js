@@ -1,4 +1,5 @@
 export { default as FontFamilyPreview } from "./Component/FontFamilyPreview";
+export { default as RadioButton } from "./Component/RadioButton";
 
 export function getFontWeightConfig(fontName, value, fontList, defaultValue = 400) {
     const font = getFontBasedOnValue(fontName, fontList);
@@ -72,6 +73,7 @@ export function getFontCollection(fonts, enableFallback = true, placeholderFont 
     if (placeholderFont && placeholderFont.name) {
         generateFontObject(placeholderFont.name, placeholderFont, enableFallback);
     }
+    let index = 0;
     for (const key in fonts) {
         const item = fonts[key];
         if (!item) {
@@ -82,7 +84,10 @@ export function getFontCollection(fonts, enableFallback = true, placeholderFont 
         if (!object.nested[type]) {
             object.nested[type] = {};
         }
-        object.flat[key] = result;
+        if (!sortFonts) {
+            object.flat[key] = { ...result, index };
+            index++;
+        }
         object.nested[type][key] = result;
     }
     if (sortFonts) {
@@ -90,6 +95,13 @@ export function getFontCollection(fonts, enableFallback = true, placeholderFont 
             object.nested[type] = Object.fromEntries(
                 Object.entries(object.nested[type]).sort(([, a], [, b]) => a.label.localeCompare(b.label)),
             );
+            // We set here the flat list, to have the same order as the nested list
+            object.flat = { ...object.flat, ...object.nested[type] };
+        }
+        for (const font in object.flat) {
+            // Add the index to the flat list
+            object.flat[font].index = index;
+            index++;
         }
     }
     return object;
@@ -114,6 +126,16 @@ export function injectStylesheet(file) {
     head.appendChild(link);
 }
 
+export function getFilePath(file) {
+    if (!file || typeof file !== "string") {
+        return null;
+    }
+    if (file.startsWith("resource://")) {
+        return file.replace("resource://", "/_Resources/Static/Packages/");
+    }
+    return file;
+}
+
 function generateFontObject(key, item, enableFallback) {
     const label = beautifyFontOutput(item.label || key);
     const fallbackValue = item.fallback || "";
@@ -133,7 +155,7 @@ function generateFontObject(key, item, enableFallback) {
         injectStylesheet(cssFile);
     }
 
-    return { label, fallback, fontStyle, fontWeight, display, cssFile, value, type };
+    return { key, label, fallback, fontStyle, fontWeight, display, cssFile, value, type };
 }
 
 function determineFontType(fallback, group) {
@@ -147,14 +169,4 @@ function determineFontType(fallback, group) {
     if (fallback.includes("cursive")) return "cursive";
     if (fallback.includes("fantasy")) return "fantasy";
     return "sans-serif";
-}
-
-function getFilePath(file) {
-    if (!file || typeof file !== "string") {
-        return null;
-    }
-    if (file.startsWith("resource://")) {
-        return file.replace("resource://", "/_Resources/Static/Packages/");
-    }
-    return file;
 }

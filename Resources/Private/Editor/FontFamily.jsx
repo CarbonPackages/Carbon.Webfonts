@@ -78,6 +78,9 @@ const styles = stylex.create({
             outline: "1px solid var(--colors-PrimaryBlue)",
         },
     },
+    buttonCurrent: {
+        background: "var(--colors-ContrastDarker)",
+    },
     block: {
         display: "block !important",
     },
@@ -130,6 +133,9 @@ function FontFamily({
 
     const [isOpen, setIsOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
+    const isCurrent = (fontFamily) => fontFamily === value;
+    let nextFontIndex = null
+    let prevFontIndex = null
 
     injectStylesheet(cssFile);
 
@@ -149,6 +155,23 @@ function FontFamily({
                         placeholder={i18nRegistry.translate("search", "Neos.Neos", "Main")}
                         allowEmpty={true}
                         setFocus={true}
+                        onKeyDown={({ key }) => {
+                            if (searchTerm) {
+                                return;
+                            }
+                            if (key == "ArrowRight") {
+                                const nextFont = Object.values(fonts.flat).find((font) => font.index === nextFontIndex);
+                                if (nextFont) {
+                                    commit(nextFont.value);
+                                }
+                            }
+                            if (key == "ArrowLeft") {
+                                const prevFont = Object.values(fonts.flat).find((font) => font.index === prevFontIndex);
+                                if (prevFont) {
+                                    commit(prevFont.value);
+                                }
+                            }
+                        }}
                         containerClassName={
                             stylex.props(styles.searchInput, isOpen && styles.searchInputVisible).className
                         }
@@ -185,7 +208,13 @@ function FontFamily({
                                 {i18nRegistry.translate(`fontType.${type}`, type, [], "Carbon.Webfonts", "Main")}
                             </li>
 
-                            {Object.values(items).map(({ label, cssFile, value, display }) => {
+                            {Object.values(items).map(({ label, cssFile, value, display, index }) => {
+                                const isCurrentFont = isCurrent(value);
+                                if (isCurrentFont) {
+                                    nextFontIndex = index + 1;
+                                    prevFontIndex = index == 0 ? null : index - 1;
+                                }
+
                                 if (!searchTerm || fuzzysearch(searchTerm.toLowerCase(), label.toLowerCase())) {
                                     return (
                                         <li>
@@ -194,7 +223,7 @@ function FontFamily({
                                                 onClick={() => {
                                                     commit(value);
                                                 }}
-                                                {...stylex.props(styles.button)}
+                                                {...stylex.props(styles.button, isCurrentFont && styles.buttonCurrent)}
                                             >
                                                 <span
                                                     {...stylex.props(
