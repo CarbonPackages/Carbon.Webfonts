@@ -2,6 +2,9 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file original="" product-name="Carbon.Webfonts" source-language="en" datatype="plaintext">
         <body>
+            <trans-unit id="noFont" xml:space="preserve">
+                <source>No individual font</source>
+            </trans-unit>
             <trans-unit id="fontType.sans-serif" xml:space="preserve">
                 <source>Sans serif font</source>
             </trans-unit>
