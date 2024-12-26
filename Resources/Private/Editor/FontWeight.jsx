@@ -14,7 +14,18 @@ const defaultOptions = {
     fonts: {},
 };
 
-function FontWeight({ id, value, commit, options, className, highlight, i18nRegistry, onEnterKey, config, carbonWebfonts }) {
+function FontWeight({
+    id,
+    value,
+    commit,
+    options,
+    className,
+    highlight,
+    i18nRegistry,
+    onEnterKey,
+    config,
+    carbonWebfonts,
+}) {
     const { disabled, readonly, useCarbonWebfonts, placeholder, choosenFont } = {
         ...defaultOptions,
         ...config,
@@ -66,9 +77,7 @@ function FontWeight({ id, value, commit, options, className, highlight, i18nRegi
     }, [font]);
 
     if (!!value && type !== "variable" && type !== "fixed") {
-        return (
-            <RadioButton disabled value={value} highlight={highlight} currentValue={value} />
-        )
+        return <RadioButton disabled value={value} highlight={highlight} currentValue={value} />;
     }
 
     if (type === "variable") {
@@ -83,7 +92,7 @@ function FontWeight({ id, value, commit, options, className, highlight, i18nRegi
                 disabled={disabled}
                 readonly={readonly}
             />
-        )
+        );
     }
 
     // Fixed
@@ -101,7 +110,7 @@ function FontWeight({ id, value, commit, options, className, highlight, i18nRegi
                 currentValue={value}
                 disabled={disabled || readonly}
             />
-        ))
+        ));
     }
 
     const selectBoxOptions = fontWeight.map((weight) => ({
@@ -120,7 +129,7 @@ function FontWeight({ id, value, commit, options, className, highlight, i18nRegi
             disabled={disabled}
             readonly={readonly}
         />
-    )
+    );
 }
 
 export default injectNeosProps(FontWeight, "FontWeight");

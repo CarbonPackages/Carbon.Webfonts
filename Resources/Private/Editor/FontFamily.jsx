@@ -134,8 +134,8 @@ function FontFamily({
     const [isOpen, setIsOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
     const isCurrent = (fontFamily) => fontFamily === value;
-    let nextFontIndex = null
-    let prevFontIndex = null
+    let nextFontIndex = null;
+    let prevFontIndex = null;
 
     injectStylesheet(cssFile);
 
@@ -152,7 +152,7 @@ function FontFamily({
                         id={id}
                         value={searchTerm}
                         onChange={setSearchTerm}
-                        placeholder={i18nRegistry.translate("search", "Neos.Neos", "Main")}
+                        placeholder={i18nRegistry.translate("Neos.Neos:Main:search")}
                         allowEmpty={true}
                         setFocus={true}
                         onKeyDown={({ key }) => {
@@ -190,6 +190,7 @@ function FontFamily({
                 {allowEmpty && !!value && (
                     <IconButton
                         icon="times"
+                        title={i18nRegistry.translate("Carbon.Webfonts:Main:noFont")}
                         onClick={(event) => {
                             commit("");
                             event.stopPropagation();
@@ -205,7 +206,7 @@ function FontFamily({
                     <li key={type}>
                         <ul>
                             <li {...stylex.props(styles.fontGroup)}>
-                                {i18nRegistry.translate(`fontType.${type}`, type, [], "Carbon.Webfonts", "Main")}
+                                {i18nRegistry.translate(`Carbon.Webfonts:Main:fontType.${type}`, type)}
                             </li>
 
                             {Object.values(items).map(({ label, cssFile, value, display, index }) => {
