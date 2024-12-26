@@ -2,18 +2,14 @@
 
 namespace Carbon\Webfonts;
 
+use Carbon\Webfonts\Service;
 use Neos\Eel\ProtectedContextAwareInterface;
 use Neos\Flow\Annotations as Flow;
-use Neos\Flow\ResourceManagement\ResourceManager;
 
 class EelHelper implements ProtectedContextAwareInterface
 {
-    /** @var array $fonts */
-    #[Flow\InjectConfiguration('frontendConfiguration.CarbonWebfonts', 'Neos.Neos.Ui')]
-    protected $fonts;
-
     #[Flow\Inject]
-    protected ResourceManager $resourceManager;
+    protected Service $service;
 
     /**
      * Get Font name
@@ -22,39 +18,19 @@ class EelHelper implements ProtectedContextAwareInterface
      * @return array|null
      */
     public function getFontName(?string $font = null): ?string {
-        if (!$font) {
-            return null;
-        }
-        // Because the font string can have a fallback font, we need to split it
-        return trim(explode(',', $font)[0]);
+        return $this->service->getFontName($font);
     }
 
     /**
      * Get CSS File
      *
      * @param string $font
+     * @param bool $absolute
      * @return string|null
      */
-    public function getCSSFile(?string $font = null): ?string
+    public function getCSSFile(?string $font = null, bool $absolute = false): ?string
     {
-        $font = $this->getFontName($font);
-        if (!$font) {
-            return null;
-        }
-        $file = $this->fonts[$font]['cssFile'] ?? null;
-        if (!$file) {
-            return null;
-        }
-
-        if (!str_starts_with($file, 'resource://')) {
-            return $file;
-        }
-
-        // remove the resource:// prefix
-        $file = str_replace('resource://', '', $file);
-        [$packageKey, $path] = explode('/', $file, 2);
-        $resourcePath = sprintf('resource://%s/Public/%s', $packageKey, $path);
-        return $this->resourceManager->getPublicPackageResourceUriByPath($resourcePath);
+        return $this->service->getCSSFile($font, $absolute);
     }
 
     /**
@@ -65,11 +41,7 @@ class EelHelper implements ProtectedContextAwareInterface
      */
     public function getCSSFileContent(?string $font = null): ?string
     {
-        $file = $this->getCSSFile($font);
-        if (!$file) {
-            return null;
-        }
-        return file_get_contents($file);
+        return $this->service->getCSSFileContent($font);
     }
 
     /**
