@@ -86,9 +86,7 @@ Vendor.Package:Mixin.FontFamily:
                 Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
             Impact:
               group: Sans Serif
-              fontWeight:
-                - 400
-                - 700
+              fontWeight: 400
               fallback:
                 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto
                 Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
