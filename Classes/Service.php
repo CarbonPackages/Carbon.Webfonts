@@ -26,7 +26,11 @@ class Service
             return null;
         }
         // Because the font string can have a fallback font, we need to split it
-        return trim(explode(',', $font)[0]);
+        $fontName = trim(explode(',', trim($font))[0]);
+        if (!$fontName) {
+            return null;
+        }
+        return $fontName;
     }
 
     /**
