@@ -103,7 +103,7 @@ function FontWeight({
     if (fontWeight.length < 4) {
         return fontWeight.map((weight) => (
             <RadioButton
-                key={weight}
+                key={`key-${weight}`}
                 value={weight}
                 highlight={highlight}
                 onChange={commitIfChanged}
