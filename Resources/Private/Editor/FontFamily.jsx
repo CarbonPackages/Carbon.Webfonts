@@ -218,9 +218,8 @@ function FontFamily({
 
                                 if (!searchTerm || fuzzysearch(searchTerm.toLowerCase(), label.toLowerCase())) {
                                     return (
-                                        <li>
+                                        <li key={label}>
                                             <button
-                                                key={label}
                                                 onClick={() => {
                                                     commit(value);
                                                 }}
