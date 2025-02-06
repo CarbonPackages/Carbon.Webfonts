@@ -65,7 +65,14 @@ export function getFontBasedOnValue(value, fonts) {
     return selectedFont || null;
 }
 
-export function getFontCollection(fonts, enableFallback = true, placeholderFont = null, sortFonts = true) {
+export function getFontCollection(
+    fonts,
+    enableFallback = true,
+    placeholderFont = null,
+    sortFonts = true,
+    allowSystemFonts = true,
+    allowFontFace = true,
+) {
     const object = {
         nested: {},
         flat: {},
@@ -80,6 +87,10 @@ export function getFontCollection(fonts, enableFallback = true, placeholderFont 
             continue;
         }
         const { type, ...result } = generateFontObject(key, item, enableFallback);
+
+        if ((result.cssFile && !allowFontFace) || (!result.cssFile && !allowSystemFonts)) {
+            continue;
+        }
 
         if (!object.nested[type]) {
             object.nested[type] = {};

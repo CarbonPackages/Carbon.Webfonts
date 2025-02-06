@@ -18,6 +18,8 @@ const defaultOptions = {
     placeholderFont: false,
     enableFallback: true,
     showIcon: true,
+    allowSystemFonts: true,
+    allowFontFace: true,
 };
 
 const styles = stylex.create({
@@ -117,6 +119,8 @@ function FontFamily({
         sortFonts,
         useCarbonWebfonts,
         placeholder,
+        allowSystemFonts,
+        allowFontFace,
     } = {
         ...defaultOptions,
         ...config,
@@ -129,6 +133,8 @@ function FontFamily({
         enableFallback,
         !placeholder && placeholderFont ? placeholderFont : null,
         sortFonts,
+        allowSystemFonts,
+        allowFontFace,
     );
 
     const [isOpen, setIsOpen] = useState(false);

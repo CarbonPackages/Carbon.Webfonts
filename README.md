@@ -48,9 +48,15 @@ Vendor.Package:Mixin.FontFamily:
       inspector:
         editor: "Carbon.Webfonts/FontFamily"
         editorOptions:
-          allowEmpty:
-            true
-            # Set this to an object just like a font value to use a placeholder font
+          allowEmpty: true
+
+          # Allow system fonts
+          allowSystemFonts: true
+
+          # Allow fonts who need a font file
+          allowFontFace: true
+
+          # Set this to an object just like a font value to use a placeholder font
           # It takes the same values as a font value, but adding the needed name
           placeholderFont:
             name: "Open Sans"

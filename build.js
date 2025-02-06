@@ -109,10 +109,6 @@ function buildEditor() {
                 dev: false,
                 generatedCSSFileName: path.resolve(__dirname, outdir, "Main.css"),
                 stylexImports: ["@stylexjs/stylex"],
-                unstable_moduleResolution: {
-                    type: "commonJS",
-                    rootDir: __dirname,
-                },
             }),
         ],
     };

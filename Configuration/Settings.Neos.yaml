@@ -32,6 +32,12 @@ Neos:
           # Sort the fonts by name
           sortFonts: true
 
+          # Allow system fonts
+          allowSystemFonts: true
+
+          # Allow fonts who need a font file
+          allowFontFace: true
+
           # Use the fonts from Carbon Webfonts
           useCarbonWebfonts: true
 
