@@ -13,9 +13,9 @@
     "@stylexjs/esbuild-plugin": "^0.10.1",
     "@stylexjs/stylex": "^0.10.1",
     "carbon-neos-loadinganimation": "^1.1.1",
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.25.0",
     "fuzzysearch": "^1.0.3",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.1",
     "yaml": "^2.7.0"
   }
 }
