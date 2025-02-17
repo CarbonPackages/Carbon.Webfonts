@@ -1,0 +1,8 @@
+{
+  "name": "Overpass",
+  "version": "v16",
+  "filename": "Overpass",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Overpass/Style.css",
+  "fontWeight": "100 900"
+}

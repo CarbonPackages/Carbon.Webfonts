@@ -1,0 +1,8 @@
+{
+  "name": "Overpass Mono",
+  "version": "v16",
+  "filename": "Overpass-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Overpass-Mono/Style.css",
+  "fontWeight": "300 700"
+}

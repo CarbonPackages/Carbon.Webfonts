@@ -327,6 +327,16 @@ Neos:
             cssFile: resource://Carbon.Webfonts/Fonts/Oswald/Style.css
             fontWeight: 200 700
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+          Overpass:
+            group: Sans Serif
+            cssFile: resource://Carbon.Webfonts/Fonts/Overpass/Style.css
+            fontWeight: 100 900
+            fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+          Overpass Mono:
+            group: Monospace
+            cssFile: resource://Carbon.Webfonts/Fonts/Overpass-Mono/Style.css
+            fontWeight: 300 700
+            fallback: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace
           PT Sans:
             group: Sans Serif
             cssFile: resource://Carbon.Webfonts/Fonts/PT-Sans/Style.css
