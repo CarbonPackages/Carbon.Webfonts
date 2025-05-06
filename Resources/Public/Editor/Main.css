@@ -1,12 +1,12 @@
 @property --fontFamily { syntax: "*"; inherits: false;}
 @property --fontWeight { syntax: "*"; inherits: false;}
 @property --fontStyle { syntax: "*"; inherits: false;}
-@property --backgroundColor { syntax: "*"; inherits: false;}
-@property --borderColor { syntax: "*"; inherits: false;}
-@property --background { syntax: "*"; inherits: false;}
 @property --minHeight { syntax: "*"; inherits: false;}
 @property --opacity { syntax: "*"; inherits: false;}
 @property --transform { syntax: "*"; inherits: false;}
+@property --backgroundColor { syntax: "*"; inherits: false;}
+@property --borderColor { syntax: "*"; inherits: false;}
+@property --background { syntax: "*"; inherits: false;}
 .webfonts-1md70p1:not(#\#){background:transparent}
 .webfonts-7m5jml:not(#\#){background:var(--background)}
 .webfonts-978ut8:not(#\#){background:var(--colors-ContrastDarker)}

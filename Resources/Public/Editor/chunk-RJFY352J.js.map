@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/.pnpm/@neos-project+neos-ui-extensibility@8.3.11/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js", "../../Private/Editor/Component/injectNeosProps.js"],
+  "sourcesContent": [null, "import { neos } from \"@neos-project/neos-ui-decorators\";\n\nexport default function injectNeosProps(component, configKey) {\n    const neosifier = neos((globalRegistry) => ({\n        i18nRegistry: globalRegistry.get(\"i18n\"),\n        config: globalRegistry.get(\"frontendConfiguration\").get(`Carbon.Webfonts.${configKey}`),\n        carbonWebfonts: globalRegistry.get(\"frontendConfiguration\").get(\"CarbonWebfonts\"),\n    }));\n    return neosifier(component);\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;;;AAEA,WAAO,UAAU,oBAAoB,qBAAqB,EAAC,EAAG;;;;;ACF9D,gCAAqB;AAEN,SAAR,gBAAiC,WAAW,WAAW;AAC1D,QAAM,gBAAY,gCAAK,CAAC,oBAAoB;AAAA,IACxC,cAAc,eAAe,IAAI,MAAM;AAAA,IACvC,QAAQ,eAAe,IAAI,uBAAuB,EAAE,IAAI,mBAAmB,SAAS,EAAE;AAAA,IACtF,gBAAgB,eAAe,IAAI,uBAAuB,EAAE,IAAI,gBAAgB;AAAA,EACpF,EAAE;AACF,SAAO,UAAU,SAAS;AAC9B;",
+  "names": []
+}
