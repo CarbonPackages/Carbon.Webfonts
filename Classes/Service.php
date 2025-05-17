@@ -15,6 +15,30 @@ class Service
     protected ResourceManager $resourceManager;
 
     /**
+     * Get all fonts
+     *
+     * @param bool $webfonts
+     * @param bool $systemFonts
+     * @return array
+     */
+    public function getAllFonts(bool $webfonts = true, bool $systemFonts = true): array
+    {
+        $fonts = [];
+        foreach ($this->fonts as $font => $config) {
+            $isWebfont = $config['cssFile'] ?? false;
+            if ($webfonts && $isWebfont) {
+                $fonts[$font] = $config;
+                continue;
+            }
+            if ($systemFonts && !$isWebfont) {
+                $fonts[$font] = $config;
+            }
+        }
+        return $fonts;
+    }
+
+
+    /**
      * Get Font name
      *
      * @param string $font
