@@ -49,7 +49,16 @@ function generateFontSettings() {
             continue;
         }
 
-        setFontConfig(JSON.parse(fs.readFileSync(filepath, "utf8")));
+        const json = JSON.parse(fs.readFileSync(filepath, "utf8"));
+
+        if (json.name != font.replaceAll("-", " ")) {
+            console.error(
+                `Font name "${json.name}" in ${filepath} does not match the folder name "${font.replaceAll("-", " ")}"`,
+            );
+            continue;
+        }
+
+        setFontConfig(json);
     }
 
     const yamlContent = YAML.stringify(
