@@ -1,0 +1,11 @@
+{
+  "name": "Arvo",
+  "version": "v22",
+  "filename": "Arvo",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Arvo/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

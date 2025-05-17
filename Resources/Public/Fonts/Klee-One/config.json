@@ -1,8 +1,11 @@
 {
-  "name": "Georama",
-  "version": "v13",
-  "filename": "Georama",
-  "group": "Sans Serif",
-  "cssFile": "resource://Carbon.Webfonts/Fonts/Georama/Style.css",
-  "fontWeight": "100 900"
+  "name": "Klee One",
+  "version": "v12",
+  "filename": "Klee-One",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Klee-One/Style.css",
+  "fontWeight": [
+    400,
+    600
+  ]
 }

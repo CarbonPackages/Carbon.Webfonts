@@ -1,0 +1,14 @@
+{
+  "name": "Zilla Slab",
+  "version": "v11",
+  "filename": "Zilla-Slab",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Zilla-Slab/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

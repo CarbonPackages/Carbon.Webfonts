@@ -1,0 +1,8 @@
+{
+  "name": "Red Hat Display",
+  "version": "v20",
+  "filename": "Red-Hat-Display",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Red-Hat-Display/Style.css",
+  "fontWeight": "300 900"
+}

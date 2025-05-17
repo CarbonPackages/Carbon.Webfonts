@@ -1,0 +1,11 @@
+{
+  "name": "Share",
+  "version": "v18",
+  "filename": "Share",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Share/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

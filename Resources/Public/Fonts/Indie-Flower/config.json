@@ -1,0 +1,8 @@
+{
+  "name": "Indie Flower",
+  "version": "v22",
+  "filename": "Indie-Flower",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Indie-Flower/Style.css",
+  "fontWeight": 400
+}

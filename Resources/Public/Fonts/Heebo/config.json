@@ -1,0 +1,8 @@
+{
+  "name": "Heebo",
+  "version": "v26",
+  "filename": "Heebo",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Heebo/Style.css",
+  "fontWeight": "100 900"
+}

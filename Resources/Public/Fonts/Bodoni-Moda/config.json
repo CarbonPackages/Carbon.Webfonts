@@ -1,0 +1,8 @@
+{
+  "name": "Bodoni Moda",
+  "version": "v25",
+  "filename": "Bodoni-Moda",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Bodoni-Moda/Style.css",
+  "fontWeight": "400 900"
+}

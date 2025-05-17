@@ -1,0 +1,15 @@
+{
+  "name": "Titillium Web",
+  "version": "v17",
+  "filename": "Titillium-Web",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Titillium-Web/Style.css",
+  "fontWeight": [
+    200,
+    300,
+    400,
+    600,
+    700,
+    900
+  ]
+}

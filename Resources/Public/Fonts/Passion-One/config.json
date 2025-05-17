@@ -1,0 +1,12 @@
+{
+  "name": "Passion One",
+  "version": "v18",
+  "filename": "Passion-One",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Passion-One/Style.css",
+  "fontWeight": [
+    400,
+    700,
+    900
+  ]
+}

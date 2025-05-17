@@ -1,0 +1,13 @@
+{
+  "name": "Almarai",
+  "version": "v18",
+  "filename": "Almarai",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Almarai/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    700,
+    800
+  ]
+}

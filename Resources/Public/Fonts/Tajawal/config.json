@@ -1,0 +1,16 @@
+{
+  "name": "Tajawal",
+  "version": "v11",
+  "filename": "Tajawal",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Tajawal/Style.css",
+  "fontWeight": [
+    200,
+    300,
+    400,
+    500,
+    700,
+    800,
+    900
+  ]
+}

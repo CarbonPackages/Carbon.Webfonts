@@ -1,0 +1,16 @@
+{
+  "name": "Spectral",
+  "version": "v14",
+  "filename": "Spectral",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Spectral/Style.css",
+  "fontWeight": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+  ]
+}

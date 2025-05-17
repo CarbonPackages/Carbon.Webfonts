@@ -1,0 +1,12 @@
+{
+  "name": "Kalam",
+  "version": "v17",
+  "filename": "Kalam",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Kalam/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    700
+  ]
+}

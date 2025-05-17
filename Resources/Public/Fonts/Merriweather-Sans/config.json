@@ -1,0 +1,8 @@
+{
+  "name": "Merriweather Sans",
+  "version": "v26",
+  "filename": "Merriweather-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Merriweather-Sans/Style.css",
+  "fontWeight": "300 800"
+}

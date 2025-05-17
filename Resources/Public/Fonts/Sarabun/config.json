@@ -1,0 +1,17 @@
+{
+  "name": "Sarabun",
+  "version": "v16",
+  "filename": "Sarabun",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Sarabun/Style.css",
+  "fontWeight": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+  ]
+}

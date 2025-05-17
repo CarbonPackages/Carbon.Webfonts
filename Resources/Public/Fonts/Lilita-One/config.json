@@ -1,0 +1,8 @@
+{
+  "name": "Lilita One",
+  "version": "v15",
+  "filename": "Lilita-One",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Lilita-One/Style.css",
+  "fontWeight": 400
+}

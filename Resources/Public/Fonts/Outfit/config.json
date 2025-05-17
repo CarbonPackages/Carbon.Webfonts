@@ -1,0 +1,8 @@
+{
+  "name": "Outfit",
+  "version": "v11",
+  "filename": "Outfit",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Outfit/Style.css",
+  "fontWeight": "100 900"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Libre Baskerville",
+  "version": "v16",
+  "filename": "Libre-Baskerville",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Libre-Baskerville/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

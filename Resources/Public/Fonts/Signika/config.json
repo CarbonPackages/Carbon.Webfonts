@@ -1,0 +1,8 @@
+{
+  "name": "Signika",
+  "version": "v25",
+  "filename": "Signika",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Signika/Style.css",
+  "fontWeight": "300 700"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Hind Siliguri",
+  "version": "v13",
+  "filename": "Hind-Siliguri",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Hind-Siliguri/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

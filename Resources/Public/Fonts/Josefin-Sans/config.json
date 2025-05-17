@@ -1,0 +1,8 @@
+{
+  "name": "Josefin Sans",
+  "version": "v32",
+  "filename": "Josefin-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Josefin-Sans/Style.css",
+  "fontWeight": "100 700"
+}

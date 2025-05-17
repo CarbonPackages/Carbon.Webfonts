@@ -1,0 +1,16 @@
+{
+  "name": "Mukta",
+  "version": "v16",
+  "filename": "Mukta",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Mukta/Style.css",
+  "fontWeight": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+  ]
+}

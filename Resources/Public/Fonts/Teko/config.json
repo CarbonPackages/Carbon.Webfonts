@@ -1,0 +1,8 @@
+{
+  "name": "Teko",
+  "version": "v22",
+  "filename": "Teko",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Teko/Style.css",
+  "fontWeight": "300 700"
+}

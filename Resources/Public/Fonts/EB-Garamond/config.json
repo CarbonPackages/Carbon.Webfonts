@@ -1,0 +1,8 @@
+{
+  "name": "EB Garamond",
+  "version": "v30",
+  "filename": "EB-Garamond",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/EB-Garamond/Style.css",
+  "fontWeight": "400 800"
+}

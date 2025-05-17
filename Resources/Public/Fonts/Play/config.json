@@ -1,0 +1,11 @@
+{
+  "name": "Play",
+  "version": "v19",
+  "filename": "Play",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Play/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

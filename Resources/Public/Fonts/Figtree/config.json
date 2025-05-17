@@ -1,0 +1,8 @@
+{
+  "name": "Figtree",
+  "version": "v8",
+  "filename": "Figtree",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Figtree/Style.css",
+  "fontWeight": "300 900"
+}

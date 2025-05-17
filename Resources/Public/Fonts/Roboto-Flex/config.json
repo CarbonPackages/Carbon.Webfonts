@@ -1,0 +1,8 @@
+{
+  "name": "Roboto Flex",
+  "version": "v27",
+  "filename": "Roboto-Flex",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto-Flex/Style.css",
+  "fontWeight": "100 1000"
+}

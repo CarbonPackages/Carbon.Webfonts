@@ -1,0 +1,8 @@
+{
+  "name": "Righteous",
+  "version": "v17",
+  "filename": "Righteous",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Righteous/Style.css",
+  "fontWeight": 400
+}

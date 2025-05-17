@@ -1,0 +1,11 @@
+{
+  "name": "Amatic SC",
+  "version": "v26",
+  "filename": "Amatic-SC",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Amatic-SC/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Domine",
+  "version": "v23",
+  "filename": "Domine",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Domine/Style.css",
+  "fontWeight": "400 700"
+}

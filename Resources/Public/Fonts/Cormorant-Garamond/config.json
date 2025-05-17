@@ -1,0 +1,8 @@
+{
+  "name": "Cormorant Garamond",
+  "version": "v19",
+  "filename": "Cormorant-Garamond",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Cormorant-Garamond/Style.css",
+  "fontWeight": "300 700"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Nanum Gothic",
+  "version": "v26",
+  "filename": "Nanum-Gothic",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Nanum-Gothic/Style.css",
+  "fontWeight": [
+    400,
+    700,
+    800
+  ]
+}

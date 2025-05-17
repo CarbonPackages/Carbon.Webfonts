@@ -1,0 +1,8 @@
+{
+  "name": "Roboto",
+  "version": "v47",
+  "filename": "Roboto",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto/Style.css",
+  "fontWeight": "100 900"
+}

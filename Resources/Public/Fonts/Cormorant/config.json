@@ -1,0 +1,8 @@
+{
+  "name": "Cormorant",
+  "version": "v21",
+  "filename": "Cormorant",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Cormorant/Style.css",
+  "fontWeight": "300 700"
+}

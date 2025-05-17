@@ -1,0 +1,12 @@
+{
+  "name": "Nanum Myeongjo",
+  "version": "v30",
+  "filename": "Nanum-Myeongjo",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Nanum-Myeongjo/Style.css",
+  "fontWeight": [
+    400,
+    700,
+    800
+  ]
+}

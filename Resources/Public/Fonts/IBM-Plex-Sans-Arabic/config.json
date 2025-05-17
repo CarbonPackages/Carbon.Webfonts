@@ -1,0 +1,16 @@
+{
+  "name": "IBM Plex Sans Arabic",
+  "version": "v13",
+  "filename": "IBM-Plex-Sans-Arabic",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Sans-Arabic/Style.css",
+  "fontWeight": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

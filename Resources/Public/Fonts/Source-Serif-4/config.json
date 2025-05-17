@@ -1,0 +1,8 @@
+{
+  "name": "Source Serif 4",
+  "version": "v13",
+  "filename": "Source-Serif-4",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Source-Serif-4/Style.css",
+  "fontWeight": "200 900"
+}

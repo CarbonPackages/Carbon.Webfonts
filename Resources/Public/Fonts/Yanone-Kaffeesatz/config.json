@@ -1,0 +1,8 @@
+{
+  "name": "Yanone Kaffeesatz",
+  "version": "v30",
+  "filename": "Yanone-Kaffeesatz",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Yanone-Kaffeesatz/Style.css",
+  "fontWeight": "200 700"
+}

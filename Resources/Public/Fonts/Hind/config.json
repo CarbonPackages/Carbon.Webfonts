@@ -1,0 +1,14 @@
+{
+  "name": "Hind",
+  "version": "v17",
+  "filename": "Hind",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Hind/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

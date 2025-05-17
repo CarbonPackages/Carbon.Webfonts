@@ -1,0 +1,8 @@
+{
+  "name": "Source Code Pro",
+  "version": "v23",
+  "filename": "Source-Code-Pro",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Source-Code-Pro/Style.css",
+  "fontWeight": "200 900"
+}

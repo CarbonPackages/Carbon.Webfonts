@@ -1,0 +1,8 @@
+{
+  "name": "Exile",
+  "version": "v1",
+  "filename": "Exile",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Exile/Style.css",
+  "fontWeight": 400
+}

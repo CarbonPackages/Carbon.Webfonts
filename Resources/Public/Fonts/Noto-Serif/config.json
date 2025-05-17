@@ -1,0 +1,8 @@
+{
+  "name": "Noto Serif",
+  "version": "v30",
+  "filename": "Noto-Serif",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Serif/Style.css",
+  "fontWeight": "100 900"
+}

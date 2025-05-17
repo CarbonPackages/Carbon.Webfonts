@@ -1,0 +1,16 @@
+{
+  "name": "IBM Plex Mono",
+  "version": "v19",
+  "filename": "IBM-Plex-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Mono/Style.css",
+  "fontWeight": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Cairo",
+  "version": "v28",
+  "filename": "Cairo",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Cairo/Style.css",
+  "fontWeight": "200 1000"
+}

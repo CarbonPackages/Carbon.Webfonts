@@ -1,0 +1,8 @@
+{
+  "name": "Inconsolata",
+  "version": "v32",
+  "filename": "Inconsolata",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Inconsolata/Style.css",
+  "fontWeight": "200 900"
+}

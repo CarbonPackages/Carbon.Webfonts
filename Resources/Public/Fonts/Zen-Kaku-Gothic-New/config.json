@@ -1,0 +1,14 @@
+{
+  "name": "Zen Kaku Gothic New",
+  "version": "v16",
+  "filename": "Zen-Kaku-Gothic-New",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Zen-Kaku-Gothic-New/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    700,
+    900
+  ]
+}

@@ -1,13 +1,8 @@
 {
   "name": "Merriweather",
-  "version": "v30",
+  "version": "v31",
   "filename": "Merriweather",
   "group": "Serif",
   "cssFile": "resource://Carbon.Webfonts/Fonts/Merriweather/Style.css",
-  "fontWeight": [
-    300,
-    400,
-    700,
-    900
-  ]
+  "fontWeight": "300 900"
 }

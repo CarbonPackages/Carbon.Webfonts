@@ -1,0 +1,14 @@
+{
+  "name": "Hind Madurai",
+  "version": "v11",
+  "filename": "Hind-Madurai",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Hind-Madurai/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

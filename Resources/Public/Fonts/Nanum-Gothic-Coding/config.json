@@ -1,0 +1,11 @@
+{
+  "name": "Nanum Gothic Coding",
+  "version": "v26",
+  "filename": "Nanum-Gothic-Coding",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Nanum-Gothic-Coding/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

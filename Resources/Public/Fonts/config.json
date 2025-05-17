@@ -86,12 +86,84 @@
     ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "ABeeZee": {
+    "version": "v22",
+    "filename": "ABeeZee",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/ABeeZee/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Abel": {
+    "version": "v18",
+    "filename": "Abel",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Abel/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Abril Fatface": {
+    "version": "v23",
+    "filename": "Abril-Fatface",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Abril-Fatface/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Acme": {
+    "version": "v25",
+    "filename": "Acme",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Acme/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Advent Pro": {
     "version": "v28",
     "filename": "Advent-Pro",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Advent-Pro/Style.css",
     "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Albert Sans": {
+    "version": "v1",
+    "filename": "Albert-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Albert-Sans/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Alegreya": {
+    "version": "v36",
+    "filename": "Alegreya",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Alegreya/Style.css",
+    "fontWeight": "400 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Alegreya Sans": {
+    "version": "v25",
+    "filename": "Alegreya-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Alegreya-Sans/Style.css",
+    "fontWeight": [
+      100,
+      300,
+      400,
+      500,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Alfa Slab One": {
+    "version": "v19",
+    "filename": "Alfa-Slab-One",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Alfa-Slab-One/Style.css",
+    "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Allison": {
@@ -102,6 +174,19 @@
     "fontWeight": 400,
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Almarai": {
+    "version": "v18",
+    "filename": "Almarai",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Almarai/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      700,
+      800
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Alumni Sans": {
     "version": "v18",
     "filename": "Alumni-Sans",
@@ -110,12 +195,115 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Amatic SC": {
+    "version": "v26",
+    "filename": "Amatic-SC",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Amatic-SC/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Antic Slab": {
+    "version": "v16",
+    "filename": "Antic-Slab",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Antic-Slab/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Anton": {
+    "version": "v25",
+    "filename": "Anton",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Anton/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Anybody": {
     "version": "v11",
     "filename": "Anybody",
     "group": "Display",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Anybody/Style.css",
     "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Archivo": {
+    "version": "v19",
+    "filename": "Archivo",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Archivo/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Archivo Black": {
+    "version": "v21",
+    "filename": "Archivo-Black",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Archivo-Black/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Archivo Narrow": {
+    "version": "v30",
+    "filename": "Archivo-Narrow",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Archivo-Narrow/Style.css",
+    "fontWeight": "400 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Arimo": {
+    "version": "v29",
+    "filename": "Arimo",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Arimo/Style.css",
+    "fontWeight": "400 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Arvo": {
+    "version": "v22",
+    "filename": "Arvo",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Arvo/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Asap": {
+    "version": "v30",
+    "filename": "Asap",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Asap/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Asap Condensed": {
+    "version": "v17",
+    "filename": "Asap-Condensed",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Asap-Condensed/Style.css",
+    "fontWeight": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Assistant": {
+    "version": "v23",
+    "filename": "Assistant",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Assistant/Style.css",
+    "fontWeight": "200 800",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Atkinson Hyperlegible": {
@@ -128,6 +316,118 @@
       700
     ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Bangers": {
+    "version": "v24",
+    "filename": "Bangers",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Bangers/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Barlow": {
+    "version": "v12",
+    "filename": "Barlow",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Barlow/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Barlow Condensed": {
+    "version": "v12",
+    "filename": "Barlow-Condensed",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Barlow-Condensed/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Barlow Semi Condensed": {
+    "version": "v15",
+    "filename": "Barlow-Semi-Condensed",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Barlow-Semi-Condensed/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Be Vietnam Pro": {
+    "version": "v11",
+    "filename": "Be-Vietnam-Pro",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Be-Vietnam-Pro/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Bebas Neue": {
+    "version": "v14",
+    "filename": "Bebas-Neue",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Bebas-Neue/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Bitter": {
+    "version": "v39",
+    "filename": "Bitter",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Bitter/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Bodoni Moda": {
+    "version": "v25",
+    "filename": "Bodoni-Moda",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Bodoni-Moda/Style.css",
+    "fontWeight": "400 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Bree Serif": {
+    "version": "v17",
+    "filename": "Bree-Serif",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Bree-Serif/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
   "Brusher": {
     "version": "v1",
@@ -156,6 +456,22 @@
     ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Cairo": {
+    "version": "v28",
+    "filename": "Cairo",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Cairo/Style.css",
+    "fontWeight": "200 1000",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Catamaran": {
+    "version": "v27",
+    "filename": "Catamaran",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Catamaran/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Caveat": {
     "version": "v18",
     "filename": "Caveat",
@@ -163,6 +479,28 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Caveat/Style.css",
     "fontWeight": "400 700",
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Chakra Petch": {
+    "version": "v12",
+    "filename": "Chakra-Petch",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Chakra-Petch/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Changa": {
+    "version": "v27",
+    "filename": "Changa",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Changa/Style.css",
+    "fontWeight": "200 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Chivo": {
     "version": "v18",
@@ -192,12 +530,64 @@
     ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Comfortaa": {
+    "version": "v45",
+    "filename": "Comfortaa",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Comfortaa/Style.css",
+    "fontWeight": "300 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Cormorant": {
+    "version": "v21",
+    "filename": "Cormorant",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Cormorant/Style.css",
+    "fontWeight": "300 700",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Cormorant Garamond": {
+    "version": "v19",
+    "filename": "Cormorant-Garamond",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Cormorant-Garamond/Style.css",
+    "fontWeight": "300 700",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
   "Crimson Pro": {
     "version": "v24",
     "filename": "Crimson-Pro",
     "group": "Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Crimson-Pro/Style.css",
     "fontWeight": "200 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Crimson Text": {
+    "version": "v19",
+    "filename": "Crimson-Text",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Crimson-Text/Style.css",
+    "fontWeight": [
+      400,
+      600,
+      700
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "DM Sans": {
+    "version": "v15",
+    "filename": "DM-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/DM-Sans/Style.css",
+    "fontWeight": "100 1000",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "DM Serif Display": {
+    "version": "v15",
+    "filename": "DM-Serif-Display",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/DM-Serif-Display/Style.css",
+    "fontWeight": 400,
     "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
   "Dancing Script": {
@@ -207,6 +597,22 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Dancing-Script/Style.css",
     "fontWeight": "400 700",
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Domine": {
+    "version": "v23",
+    "filename": "Domine",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Domine/Style.css",
+    "fontWeight": "400 700",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Dosis": {
+    "version": "v32",
+    "filename": "Dosis",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Dosis/Style.css",
+    "fontWeight": "200 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Doto": {
     "version": "v1",
@@ -224,12 +630,44 @@
     "fontWeight": "400 700",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "EB Garamond": {
+    "version": "v30",
+    "filename": "EB-Garamond",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/EB-Garamond/Style.css",
+    "fontWeight": "400 800",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
   "El Messiri": {
     "version": "v22",
     "filename": "El-Messiri",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/El-Messiri/Style.css",
     "fontWeight": "400 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Exile": {
+    "version": "v1",
+    "filename": "Exile",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Exile/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Exo": {
+    "version": "v21",
+    "filename": "Exo",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Exo/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Exo 2": {
+    "version": "v24",
+    "filename": "Exo-2",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Exo-2/Style.css",
+    "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Expletus Sans": {
@@ -240,6 +678,76 @@
     "fontWeight": "400 700",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Figtree": {
+    "version": "v8",
+    "filename": "Figtree",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Figtree/Style.css",
+    "fontWeight": "300 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Fira Sans": {
+    "version": "v17",
+    "filename": "Fira-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Fira-Sans/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Fira Sans Condensed": {
+    "version": "v10",
+    "filename": "Fira-Sans-Condensed",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Fira-Sans-Condensed/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Fira Sans Extra Condensed": {
+    "version": "v10",
+    "filename": "Fira-Sans-Extra-Condensed",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Fira-Sans-Extra-Condensed/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Fjalla One": {
+    "version": "v15",
+    "filename": "Fjalla-One",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Fjalla-One/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Fontdiner Swanky": {
     "version": "v23",
     "filename": "Fontdiner-Swanky",
@@ -247,6 +755,14 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Fontdiner-Swanky/Style.css",
     "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Frank Ruhl Libre": {
+    "version": "v22",
+    "filename": "Frank-Ruhl-Libre",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Frank-Ruhl-Libre/Style.css",
+    "fontWeight": "300 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
   "Georama": {
     "version": "v13",
@@ -264,6 +780,136 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Great Vibes": {
+    "version": "v19",
+    "filename": "Great-Vibes",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Great-Vibes/Style.css",
+    "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Heebo": {
+    "version": "v26",
+    "filename": "Heebo",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Heebo/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Hind": {
+    "version": "v17",
+    "filename": "Hind",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Hind/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Hind Madurai": {
+    "version": "v11",
+    "filename": "Hind-Madurai",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Hind-Madurai/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Hind Siliguri": {
+    "version": "v13",
+    "filename": "Hind-Siliguri",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Hind-Siliguri/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "IBM Plex Mono": {
+    "version": "v19",
+    "filename": "IBM-Plex-Mono",
+    "group": "Monospace",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Mono/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+  },
+  "IBM Plex Sans": {
+    "version": "v21",
+    "filename": "IBM-Plex-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Sans/Style.css",
+    "fontWeight": "100 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "IBM Plex Sans Arabic": {
+    "version": "v13",
+    "filename": "IBM-Plex-Sans-Arabic",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Sans-Arabic/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "IBM Plex Serif": {
+    "version": "v19",
+    "filename": "IBM-Plex-Serif",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Serif/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Inconsolata": {
+    "version": "v32",
+    "filename": "Inconsolata",
+    "group": "Monospace",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Inconsolata/Style.css",
+    "fontWeight": "200 900",
+    "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+  },
+  "Indie Flower": {
+    "version": "v22",
+    "filename": "Indie-Flower",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Indie-Flower/Style.css",
+    "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Inter": {
     "version": "v18",
     "filename": "Inter",
@@ -280,6 +926,30 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Josefin Sans": {
+    "version": "v32",
+    "filename": "Josefin-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Josefin-Sans/Style.css",
+    "fontWeight": "100 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Josefin Slab": {
+    "version": "v27",
+    "filename": "Josefin-Slab",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Josefin-Slab/Style.css",
+    "fontWeight": "100 700",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Jost": {
+    "version": "v18",
+    "filename": "Jost",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Jost/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Jura": {
     "version": "v31",
     "filename": "Jura",
@@ -288,12 +958,61 @@
     "fontWeight": "300 700",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Kalam": {
+    "version": "v17",
+    "filename": "Kalam",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Kalam/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      700
+    ],
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Kanit": {
+    "version": "v16",
+    "filename": "Kanit",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Kanit/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Karla": {
+    "version": "v31",
+    "filename": "Karla",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Karla/Style.css",
+    "fontWeight": "200 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Kings": {
     "version": "v7",
     "filename": "Kings",
     "group": "Handwriting",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Kings/Style.css",
     "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Klee One": {
+    "version": "v12",
+    "filename": "Klee-One",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Klee-One/Style.css",
+    "fontWeight": [
+      400,
+      600
+    ],
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Lato": {
@@ -310,6 +1029,14 @@
     ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "League Spartan": {
+    "version": "v11",
+    "filename": "League-Spartan",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/League-Spartan/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Lemonada": {
     "version": "v28",
     "filename": "Lemonada",
@@ -319,11 +1046,46 @@
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Lexend": {
-    "version": "v23",
+    "version": "v24",
     "filename": "Lexend",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Lexend/Style.css",
     "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Lexend Deca": {
+    "version": "v22",
+    "filename": "Lexend-Deca",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Lexend-Deca/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Libre Baskerville": {
+    "version": "v16",
+    "filename": "Libre-Baskerville",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Libre-Baskerville/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Libre Franklin": {
+    "version": "v18",
+    "filename": "Libre-Franklin",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Libre-Franklin/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Lilita One": {
+    "version": "v15",
+    "filename": "Lilita-One",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Lilita-One/Style.css",
+    "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Lobster": {
@@ -334,6 +1096,17 @@
     "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Lobster Two": {
+    "version": "v20",
+    "filename": "Lobster-Two",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Lobster-Two/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Lora": {
     "version": "v35",
     "filename": "Lora",
@@ -342,8 +1115,56 @@
     "fontWeight": "400 700",
     "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
+  "M PLUS 1p": {
+    "version": "v31",
+    "filename": "M-PLUS-1p",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/M-PLUS-1p/Style.css",
+    "fontWeight": [
+      100,
+      300,
+      400,
+      500,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "M PLUS Rounded 1c": {
+    "version": "v16",
+    "filename": "M-PLUS-Rounded-1c",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/M-PLUS-Rounded-1c/Style.css",
+    "fontWeight": [
+      100,
+      300,
+      400,
+      500,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Manrope": {
+    "version": "v15",
+    "filename": "Manrope",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Manrope/Style.css",
+    "fontWeight": "200 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Marcellus": {
+    "version": "v13",
+    "filename": "Marcellus",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Marcellus/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
   "Maven Pro": {
-    "version": "v36",
+    "version": "v39",
     "filename": "Maven-Pro",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Maven-Pro/Style.css",
@@ -359,17 +1180,20 @@
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Merriweather": {
-    "version": "v30",
+    "version": "v31",
     "filename": "Merriweather",
     "group": "Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Merriweather/Style.css",
-    "fontWeight": [
-      300,
-      400,
-      700,
-      900
-    ],
+    "fontWeight": "300 900",
     "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Merriweather Sans": {
+    "version": "v26",
+    "filename": "Merriweather-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Merriweather-Sans/Style.css",
+    "fontWeight": "300 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Metamorphous": {
     "version": "v20",
@@ -395,8 +1219,91 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
-  "Noto Sans Display": {
+  "Mukta": {
+    "version": "v16",
+    "filename": "Mukta",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Mukta/Style.css",
+    "fontWeight": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Mulish": {
+    "version": "v13",
+    "filename": "Mulish",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Mulish/Style.css",
+    "fontWeight": "200 1000",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Nanum Gothic": {
     "version": "v26",
+    "filename": "Nanum-Gothic",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Nanum-Gothic/Style.css",
+    "fontWeight": [
+      400,
+      700,
+      800
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Nanum Gothic Coding": {
+    "version": "v26",
+    "filename": "Nanum-Gothic-Coding",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Nanum-Gothic-Coding/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Nanum Myeongjo": {
+    "version": "v30",
+    "filename": "Nanum-Myeongjo",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Nanum-Myeongjo/Style.css",
+    "fontWeight": [
+      400,
+      700,
+      800
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Noto Kufi Arabic": {
+    "version": "v21",
+    "filename": "Noto-Kufi-Arabic",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Kufi-Arabic/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Noto Sans": {
+    "version": "v39",
+    "filename": "Noto-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Sans/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Noto Sans Arabic": {
+    "version": "v29",
+    "filename": "Noto-Sans-Arabic",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Sans-Arabic/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Noto Sans Display": {
+    "version": "v27",
     "filename": "Noto-Sans-Display",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Sans-Display/Style.css",
@@ -410,6 +1317,14 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Sans-Mono/Style.css",
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Noto Serif": {
+    "version": "v30",
+    "filename": "Noto-Serif",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Noto-Serif/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
   "Nova Cut": {
     "version": "v25",
@@ -499,12 +1414,28 @@
     "fontWeight": "300 800",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Orbitron": {
+    "version": "v31",
+    "filename": "Orbitron",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Orbitron/Style.css",
+    "fontWeight": "400 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Oswald": {
     "version": "v53",
     "filename": "Oswald",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Oswald/Style.css",
     "fontWeight": "200 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Outfit": {
+    "version": "v11",
+    "filename": "Outfit",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Outfit/Style.css",
+    "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Overpass": {
@@ -522,6 +1453,18 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Overpass-Mono/Style.css",
     "fontWeight": "300 700",
     "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+  },
+  "Oxygen": {
+    "version": "v15",
+    "filename": "Oxygen",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Oxygen/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "PT Sans": {
     "version": "v17",
@@ -583,12 +1526,43 @@
     "fontWeight": 400,
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Passion One": {
+    "version": "v18",
+    "filename": "Passion-One",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Passion-One/Style.css",
+    "fontWeight": [
+      400,
+      700,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Permanent Marker": {
+    "version": "v16",
+    "filename": "Permanent-Marker",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Permanent-Marker/Style.css",
+    "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Pirata One": {
     "version": "v22",
     "filename": "Pirata-One",
     "group": "Display",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Pirata-One/Style.css",
     "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Play": {
+    "version": "v19",
+    "filename": "Play",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Play/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Playfair Display": {
@@ -639,11 +1613,53 @@
     "fontWeight": 400,
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Plus Jakarta Sans": {
+    "version": "v8",
+    "filename": "Plus-Jakarta-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Plus-Jakarta-Sans/Style.css",
+    "fontWeight": "200 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Poetsen One": {
+    "version": "v3",
+    "filename": "Poetsen-One",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Poetsen-One/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Poppins": {
-    "version": "v22",
+    "version": "v23",
     "filename": "Poppins",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Poppins/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Prata": {
+    "version": "v20",
+    "filename": "Prata",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Prata/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Prompt": {
+    "version": "v11",
+    "filename": "Prompt",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Prompt/Style.css",
     "fontWeight": [
       100,
       200,
@@ -665,12 +1681,34 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Questrial": {
+    "version": "v18",
+    "filename": "Questrial",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Questrial/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Quicksand": {
-    "version": "v31",
+    "version": "v36",
     "filename": "Quicksand",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Quicksand/Style.css",
     "fontWeight": "300 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Rajdhani": {
+    "version": "v16",
+    "filename": "Rajdhani",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Rajdhani/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Raleway": {
@@ -689,6 +1727,14 @@
     "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Rampart One": {
+    "version": "v11",
+    "filename": "Rampart-One",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Rampart-One/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Readex Pro": {
     "version": "v21",
     "filename": "Readex-Pro",
@@ -697,12 +1743,44 @@
     "fontWeight": "160 700",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Red Hat Display": {
+    "version": "v20",
+    "filename": "Red-Hat-Display",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Red-Hat-Display/Style.css",
+    "fontWeight": "300 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Righteous": {
+    "version": "v17",
+    "filename": "Righteous",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Righteous/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Roboto": {
+    "version": "v47",
+    "filename": "Roboto",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Roboto Condensed": {
     "version": "v27",
     "filename": "Roboto-Condensed",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto-Condensed/Style.css",
     "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Roboto Flex": {
+    "version": "v27",
+    "filename": "Roboto-Flex",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto-Flex/Style.css",
+    "fontWeight": "100 1000",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Roboto Mono": {
@@ -728,6 +1806,18 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Roboto-Slab/Style.css",
     "fontWeight": "100 900",
     "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Rowdies": {
+    "version": "v17",
+    "filename": "Rowdies",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Rowdies/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Rubik": {
     "version": "v28",
@@ -801,6 +1891,22 @@
     "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Rubik Mono One": {
+    "version": "v18",
+    "filename": "Rubik-Mono-One",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Rubik-Mono-One/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Russo One": {
+    "version": "v16",
+    "filename": "Russo-One",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Russo-One/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Rye": {
     "version": "v15",
     "filename": "Rye",
@@ -817,6 +1923,108 @@
     "fontWeight": "400 700",
     "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
+  "Sacramento": {
+    "version": "v15",
+    "filename": "Sacramento",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Sacramento/Style.css",
+    "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Saira": {
+    "version": "v21",
+    "filename": "Saira",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Saira/Style.css",
+    "fontWeight": "100 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Saira Condensed": {
+    "version": "v11",
+    "filename": "Saira-Condensed",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Saira-Condensed/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Sarabun": {
+    "version": "v16",
+    "filename": "Sarabun",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Sarabun/Style.css",
+    "fontWeight": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Satisfy": {
+    "version": "v21",
+    "filename": "Satisfy",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Satisfy/Style.css",
+    "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Schibsted Grotesk": {
+    "version": "v3",
+    "filename": "Schibsted-Grotesk",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Schibsted-Grotesk/Style.css",
+    "fontWeight": "400 900",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Shadows Into Light": {
+    "version": "v20",
+    "filename": "Shadows-Into-Light",
+    "group": "Handwriting",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Shadows-Into-Light/Style.css",
+    "fontWeight": 400,
+    "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Share": {
+    "version": "v18",
+    "filename": "Share",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Share/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Share Tech": {
+    "version": "v21",
+    "filename": "Share-Tech",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Share-Tech/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Share Tech Mono": {
+    "version": "v15",
+    "filename": "Share-Tech-Mono",
+    "group": "Monospace",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Share-Tech-Mono/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+  },
   "Shojumaru": {
     "version": "v15",
     "filename": "Shojumaru",
@@ -824,6 +2032,30 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Shojumaru/Style.css",
     "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Signika": {
+    "version": "v25",
+    "filename": "Signika",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Signika/Style.css",
+    "fontWeight": "300 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Signika Negative": {
+    "version": "v21",
+    "filename": "Signika-Negative",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Signika-Negative/Style.css",
+    "fontWeight": "300 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Slabo 27px": {
+    "version": "v14",
+    "filename": "Slabo-27px",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Slabo-27px/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
   "Smooch": {
     "version": "v7",
@@ -841,21 +2073,69 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Sofia Sans": {
+    "version": "v16",
+    "filename": "Sofia-Sans",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Sofia-Sans/Style.css",
+    "fontWeight": "1 1000",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Sora": {
+    "version": "v12",
+    "filename": "Sora",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Sora/Style.css",
+    "fontWeight": "100 800",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Source Code Pro": {
+    "version": "v23",
+    "filename": "Source-Code-Pro",
+    "group": "Monospace",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Source-Code-Pro/Style.css",
+    "fontWeight": "200 900",
+    "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+  },
   "Source Sans 3": {
-    "version": "v15",
+    "version": "v18",
     "filename": "Source-Sans-3",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Source-Sans-3/Style.css",
     "fontWeight": "200 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Source Serif 4": {
+    "version": "v13",
+    "filename": "Source-Serif-4",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Source-Serif-4/Style.css",
+    "fontWeight": "200 900",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
   "Space Grotesk": {
-    "version": "v16",
+    "version": "v21",
     "filename": "Space-Grotesk",
     "group": "Sans Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Space-Grotesk/Style.css",
     "fontWeight": "300 700",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Spectral": {
+    "version": "v14",
+    "filename": "Spectral",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Spectral/Style.css",
+    "fontWeight": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   },
   "Stardos Stencil": {
     "version": "v15",
@@ -876,6 +2156,22 @@
     "fontWeight": 400,
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Tajawal": {
+    "version": "v11",
+    "filename": "Tajawal",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Tajawal/Style.css",
+    "fontWeight": [
+      200,
+      300,
+      400,
+      500,
+      700,
+      800,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Tangerine": {
     "version": "v17",
     "filename": "Tangerine",
@@ -886,6 +2182,40 @@
       700
     ],
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Teko": {
+    "version": "v22",
+    "filename": "Teko",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Teko/Style.css",
+    "fontWeight": "300 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Tinos": {
+    "version": "v24",
+    "filename": "Tinos",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Tinos/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Titillium Web": {
+    "version": "v17",
+    "filename": "Titillium-Web",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Titillium-Web/Style.css",
+    "fontWeight": [
+      200,
+      300,
+      400,
+      600,
+      700,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Ubuntu": {
     "version": "v20",
@@ -907,6 +2237,17 @@
     "cssFile": "resource://Carbon.Webfonts/Fonts/Ubuntu-Condensed/Style.css",
     "fontWeight": 400,
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Ubuntu Mono": {
+    "version": "v17",
+    "filename": "Ubuntu-Mono",
+    "group": "Monospace",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Ubuntu-Mono/Style.css",
+    "fontWeight": [
+      400,
+      700
+    ],
+    "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
   },
   "Ubuntu Sans": {
     "version": "v2",
@@ -940,8 +2281,16 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Varela Round": {
+    "version": "v20",
+    "filename": "Varela-Round",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Varela-Round/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Vollkorn": {
-    "version": "v27",
+    "version": "v29",
     "filename": "Vollkorn",
     "group": "Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Vollkorn/Style.css",
@@ -977,12 +2326,48 @@
     "fontWeight": "100 900",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Yanone Kaffeesatz": {
+    "version": "v30",
+    "filename": "Yanone-Kaffeesatz",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Yanone-Kaffeesatz/Style.css",
+    "fontWeight": "200 700",
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Yrsa": {
     "version": "v20",
     "filename": "Yrsa",
     "group": "Serif",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Yrsa/Style.css",
     "fontWeight": "300 700",
+    "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
+  },
+  "Zen Kaku Gothic New": {
+    "version": "v16",
+    "filename": "Zen-Kaku-Gothic-New",
+    "group": "Sans Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Zen-Kaku-Gothic-New/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      700,
+      900
+    ],
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
+  "Zilla Slab": {
+    "version": "v11",
+    "filename": "Zilla-Slab",
+    "group": "Serif",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Zilla-Slab/Style.css",
+    "fontWeight": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
     "fallback": "ui-serif,Georgia,Cambria,'Times New Roman',Times,serif"
   }
 }

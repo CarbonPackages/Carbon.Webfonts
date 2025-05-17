@@ -1,0 +1,11 @@
+{
+  "name": "Tinos",
+  "version": "v24",
+  "filename": "Tinos",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Tinos/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

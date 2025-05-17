@@ -1,0 +1,8 @@
+{
+  "name": "Bangers",
+  "version": "v24",
+  "filename": "Bangers",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Bangers/Style.css",
+  "fontWeight": 400
+}

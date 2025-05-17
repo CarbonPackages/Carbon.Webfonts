@@ -1,0 +1,8 @@
+{
+  "name": "Assistant",
+  "version": "v23",
+  "filename": "Assistant",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Assistant/Style.css",
+  "fontWeight": "200 800"
+}

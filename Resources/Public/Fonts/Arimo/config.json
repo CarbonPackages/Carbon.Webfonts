@@ -1,0 +1,8 @@
+{
+  "name": "Arimo",
+  "version": "v29",
+  "filename": "Arimo",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Arimo/Style.css",
+  "fontWeight": "400 700"
+}

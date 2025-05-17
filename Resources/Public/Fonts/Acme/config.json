@@ -1,0 +1,8 @@
+{
+  "name": "Acme",
+  "version": "v25",
+  "filename": "Acme",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Acme/Style.css",
+  "fontWeight": 400
+}

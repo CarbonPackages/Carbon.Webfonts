@@ -1,0 +1,12 @@
+{
+  "name": "Crimson Text",
+  "version": "v19",
+  "filename": "Crimson-Text",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Crimson-Text/Style.css",
+  "fontWeight": [
+    400,
+    600,
+    700
+  ]
+}

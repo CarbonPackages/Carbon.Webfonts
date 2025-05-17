@@ -1,0 +1,8 @@
+{
+  "name": "Share Tech Mono",
+  "version": "v15",
+  "filename": "Share-Tech-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Share-Tech-Mono/Style.css",
+  "fontWeight": 400
+}

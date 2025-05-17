@@ -1,0 +1,8 @@
+{
+  "name": "Albert Sans",
+  "version": "v1",
+  "filename": "Albert-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Albert-Sans/Style.css",
+  "fontWeight": "100 900"
+}

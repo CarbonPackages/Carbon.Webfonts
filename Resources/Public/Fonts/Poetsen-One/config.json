@@ -1,0 +1,8 @@
+{
+  "name": "Poetsen One",
+  "version": "v3",
+  "filename": "Poetsen-One",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Poetsen-One/Style.css",
+  "fontWeight": 400
+}

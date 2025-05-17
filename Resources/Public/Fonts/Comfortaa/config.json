@@ -1,0 +1,8 @@
+{
+  "name": "Comfortaa",
+  "version": "v45",
+  "filename": "Comfortaa",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Comfortaa/Style.css",
+  "fontWeight": "300 700"
+}

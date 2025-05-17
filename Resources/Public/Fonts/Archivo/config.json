@@ -1,0 +1,8 @@
+{
+  "name": "Archivo",
+  "version": "v19",
+  "filename": "Archivo",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Archivo/Style.css",
+  "fontWeight": "100 900"
+}

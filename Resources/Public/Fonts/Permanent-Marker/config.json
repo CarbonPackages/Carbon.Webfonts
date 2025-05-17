@@ -1,0 +1,8 @@
+{
+  "name": "Permanent Marker",
+  "version": "v16",
+  "filename": "Permanent-Marker",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Permanent-Marker/Style.css",
+  "fontWeight": 400
+}

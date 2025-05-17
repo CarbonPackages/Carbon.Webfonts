@@ -1,0 +1,14 @@
+{
+  "name": "Rajdhani",
+  "version": "v16",
+  "filename": "Rajdhani",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Rajdhani/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

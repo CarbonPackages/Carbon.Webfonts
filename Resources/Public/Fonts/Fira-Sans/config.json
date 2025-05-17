@@ -1,0 +1,18 @@
+{
+  "name": "Fira Sans",
+  "version": "v17",
+  "filename": "Fira-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Fira-Sans/Style.css",
+  "fontWeight": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+  ]
+}

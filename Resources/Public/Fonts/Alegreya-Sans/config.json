@@ -1,0 +1,16 @@
+{
+  "name": "Alegreya Sans",
+  "version": "v25",
+  "filename": "Alegreya-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Alegreya-Sans/Style.css",
+  "fontWeight": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    800,
+    900
+  ]
+}

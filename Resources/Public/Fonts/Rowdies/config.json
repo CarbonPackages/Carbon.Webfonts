@@ -1,0 +1,12 @@
+{
+  "name": "Rowdies",
+  "version": "v17",
+  "filename": "Rowdies",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Rowdies/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    700
+  ]
+}

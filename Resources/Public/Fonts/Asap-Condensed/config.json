@@ -1,0 +1,17 @@
+{
+  "name": "Asap Condensed",
+  "version": "v17",
+  "filename": "Asap-Condensed",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Asap-Condensed/Style.css",
+  "fontWeight": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+  ]
+}

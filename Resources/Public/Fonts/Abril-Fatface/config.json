@@ -1,0 +1,8 @@
+{
+  "name": "Abril Fatface",
+  "version": "v23",
+  "filename": "Abril-Fatface",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Abril-Fatface/Style.css",
+  "fontWeight": 400
+}

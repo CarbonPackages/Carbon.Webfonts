@@ -1,0 +1,14 @@
+{
+  "name": "Chakra Petch",
+  "version": "v12",
+  "filename": "Chakra-Petch",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Chakra-Petch/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ]
+}

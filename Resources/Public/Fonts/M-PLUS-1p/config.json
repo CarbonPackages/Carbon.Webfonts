@@ -1,0 +1,16 @@
+{
+  "name": "M PLUS 1p",
+  "version": "v31",
+  "filename": "M-PLUS-1p",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/M-PLUS-1p/Style.css",
+  "fontWeight": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    800,
+    900
+  ]
+}

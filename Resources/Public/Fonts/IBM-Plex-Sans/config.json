@@ -1,0 +1,8 @@
+{
+  "name": "IBM Plex Sans",
+  "version": "v21",
+  "filename": "IBM-Plex-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/IBM-Plex-Sans/Style.css",
+  "fontWeight": "100 700"
+}

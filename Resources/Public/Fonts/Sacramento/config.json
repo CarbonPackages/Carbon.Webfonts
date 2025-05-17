@@ -1,0 +1,8 @@
+{
+  "name": "Sacramento",
+  "version": "v15",
+  "filename": "Sacramento",
+  "group": "Handwriting",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Sacramento/Style.css",
+  "fontWeight": 400
+}

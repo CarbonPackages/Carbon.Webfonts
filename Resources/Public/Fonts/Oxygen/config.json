@@ -1,0 +1,12 @@
+{
+  "name": "Oxygen",
+  "version": "v15",
+  "filename": "Oxygen",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Oxygen/Style.css",
+  "fontWeight": [
+    300,
+    400,
+    700
+  ]
+}

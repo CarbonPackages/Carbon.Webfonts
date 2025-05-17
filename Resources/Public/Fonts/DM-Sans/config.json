@@ -1,0 +1,8 @@
+{
+  "name": "DM Sans",
+  "version": "v15",
+  "filename": "DM-Sans",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/DM-Sans/Style.css",
+  "fontWeight": "100 1000"
+}

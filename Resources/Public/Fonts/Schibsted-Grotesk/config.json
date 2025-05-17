@@ -1,0 +1,8 @@
+{
+  "name": "Schibsted Grotesk",
+  "version": "v3",
+  "filename": "Schibsted-Grotesk",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Schibsted-Grotesk/Style.css",
+  "fontWeight": "400 900"
+}

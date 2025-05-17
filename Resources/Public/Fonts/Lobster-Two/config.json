@@ -1,0 +1,11 @@
+{
+  "name": "Lobster Two",
+  "version": "v20",
+  "filename": "Lobster-Two",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Lobster-Two/Style.css",
+  "fontWeight": [
+    400,
+    700
+  ]
+}

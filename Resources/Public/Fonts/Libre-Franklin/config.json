@@ -1,0 +1,8 @@
+{
+  "name": "Libre Franklin",
+  "version": "v18",
+  "filename": "Libre-Franklin",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Libre-Franklin/Style.css",
+  "fontWeight": "100 900"
+}

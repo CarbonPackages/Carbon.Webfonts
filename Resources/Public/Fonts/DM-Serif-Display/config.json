@@ -1,0 +1,8 @@
+{
+  "name": "DM Serif Display",
+  "version": "v15",
+  "filename": "DM-Serif-Display",
+  "group": "Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/DM-Serif-Display/Style.css",
+  "fontWeight": 400
+}

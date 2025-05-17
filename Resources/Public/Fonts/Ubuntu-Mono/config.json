@@ -1,13 +1,11 @@
 {
-  "name": "Ubuntu",
-  "version": "v20",
-  "filename": "Ubuntu",
-  "group": "Sans Serif",
-  "cssFile": "resource://Carbon.Webfonts/Fonts/Ubuntu/Style.css",
+  "name": "Ubuntu Mono",
+  "version": "v17",
+  "filename": "Ubuntu-Mono",
+  "group": "Monospace",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Ubuntu-Mono/Style.css",
   "fontWeight": [
-    300,
     400,
-    500,
     700
   ]
 }

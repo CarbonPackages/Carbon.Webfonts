@@ -1,0 +1,16 @@
+{
+  "name": "M PLUS Rounded 1c",
+  "version": "v16",
+  "filename": "M-PLUS-Rounded-1c",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/M-PLUS-Rounded-1c/Style.css",
+  "fontWeight": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    800,
+    900
+  ]
+}

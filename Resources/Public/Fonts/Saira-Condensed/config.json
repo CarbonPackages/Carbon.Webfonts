@@ -1,0 +1,18 @@
+{
+  "name": "Saira Condensed",
+  "version": "v11",
+  "filename": "Saira-Condensed",
+  "group": "Sans Serif",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Saira-Condensed/Style.css",
+  "fontWeight": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+  ]
+}
