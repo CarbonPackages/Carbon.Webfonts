@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { Icon, IconButton, TextInput } from "@neos-project/react-ui-components";
+import React, { useState } from "react";
+import { Icon, IconButton, TextInput, DropDown } from "@neos-project/react-ui-components";
 import injectNeosProps from "./Component/injectNeosProps";
 import { getFontCollection, injectStylesheet } from "./Helper";
 import FontFamilyPreview from "./Component/FontFamilyPreview";
-import { DropDown } from "@neos-project/react-ui-components";
 import fuzzysearch from "fuzzysearch";
 import * as stylex from "@stylexjs/stylex";
 

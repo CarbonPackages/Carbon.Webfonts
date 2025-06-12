@@ -12,7 +12,10 @@ export function getFontWeightConfig(fontName, value, fontList, defaultValue = 40
         return null;
     }
     if (typeof fontWeight === "string") {
-        const array = fontWeight.split(" ").map(item => parseInt(item)).sort((a, b) => a - b);
+        const array = fontWeight
+            .split(" ")
+            .map((item) => parseInt(item))
+            .sort((a, b) => a - b);
         const min = array[0];
         const max = array[array.length - 1];
         fontWeight = {
