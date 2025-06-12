@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Button, SelectBox } from "@neos-project/react-ui-components";
+import RangeEditor from "carbon-neos-range-editor";
 import injectNeosProps from "./Component/injectNeosProps";
 import { getFontCollection, getFontWeightConfig } from "./Helper";
-import RangeEditor from "/_Resources/Static/Packages/Carbon.RangeEditor/RangeEditor.js";
 import RadioButton from "./Component/RadioButton";
 
 const defaultOptions = {

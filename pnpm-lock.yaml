@@ -20,6 +20,9 @@ importers:
       carbon-neos-loadinganimation:
         specifier: ^1.2.0
         version: 1.2.0(@neos-project/neos-ui-extensibility@8.3.13)
+      carbon-neos-range-editor:
+        specifier: ^0.2.0
+        version: 0.2.0(@neos-project/neos-ui-extensibility@8.3.13)(react@19.1.0)
       esbuild:
         specifier: ^0.25.5
         version: 0.25.5
@@ -468,6 +471,9 @@ packages:
   '@stylexjs/stylex@0.12.0':
     resolution: {integrity: sha512-gvazVsoTNRTnXldvmV/IIa1bB6UStoWMmRpoH/O+/f05IWnq5xES5foWxaPKm0uZD1vQ2Ue5e820lwT5+YqnrQ==}
 
+  '@stylexjs/stylex@0.13.1':
+    resolution: {integrity: sha512-s/aRE+pGaroMSttMDlrSMHf1lTF+uGe4ncWoRMlKZav6pg5g11sWuJojgA640aZy9jFgWvWSWbXzyUzeoDuMUQ==}
+
   babel-plugin-syntax-hermes-parser@0.26.0:
     resolution: {integrity: sha512-gU/U5ASnPmm1GY9vptiJF20BNsULFuetjJX6gvNdJCUsftbFQ1STGYMOfkFgVTtpZo+iGTz4tzDNA/IW0U8dvA==}
 
@@ -481,6 +487,11 @@ packages:
 
   carbon-neos-loadinganimation@1.2.0:
     resolution: {integrity: sha512-CF43o6ZompA4mUTX9MS6QGGyQew0ZETOWhogvP0fUhbCyjHpIvyzq9RsyvtkZxCEqAxna9yvqFDE5PZOwdTkHA==}
+    peerDependencies:
+      '@neos-project/neos-ui-extensibility': ^8.3.0 || ^9.0.0
+
+  carbon-neos-range-editor@0.2.0:
+    resolution: {integrity: sha512-/Whmx2q7QQQcz70GjlEQt/WVYDvlv+m4NGajUVYdjewqzT5eKOdYXNrxoatrqPZEk7n5gxX1wmji3lqMdMFPfQ==}
     peerDependencies:
       '@neos-project/neos-ui-extensibility': ^8.3.0 || ^9.0.0
 
@@ -573,6 +584,10 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
+  react@19.1.0:
+    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
+    engines: {node: '>=0.10.0'}
+
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
@@ -580,11 +595,21 @@ packages:
   styleq@0.2.1:
     resolution: {integrity: sha512-L0TR0NQb+X4/ktDEKmjWyp27gla+LUYi/by5k5SjKXf6/pvZP7wbwEB5J+tqxdFVPgzbsuz+d4RTScO/QZquBw==}
 
+  ts-deepmerge@7.0.3:
+    resolution: {integrity: sha512-Du/ZW2RfwV/D4cmA5rXafYjBQVuvu4qGiEEla4EmEHVHgRdx68Gftx7i66jn2bzHPwSVZY36Ae6OuDn9el4ZKA==}
+    engines: {node: '>=14.13.1'}
+
   update-browserslist-db@1.1.3:
     resolution: {integrity: sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
+
+  use-debounce@10.0.5:
+    resolution: {integrity: sha512-Q76E3lnIV+4YT9AHcrHEHYmAd9LKwUAbPXDm7FlqVGDHiSOhX3RDjT8dm0AxbJup6WgOb1YEcKyCr11kBJR5KQ==}
+    engines: {node: '>= 16.0.0'}
+    peerDependencies:
+      react: '*'
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -932,6 +957,12 @@ snapshots:
       invariant: 2.2.4
       styleq: 0.2.1
 
+  '@stylexjs/stylex@0.13.1':
+    dependencies:
+      css-mediaquery: 0.1.2
+      invariant: 2.2.4
+      styleq: 0.2.1
+
   babel-plugin-syntax-hermes-parser@0.26.0:
     dependencies:
       hermes-parser: 0.26.0
@@ -948,6 +979,16 @@ snapshots:
   carbon-neos-loadinganimation@1.2.0(@neos-project/neos-ui-extensibility@8.3.13):
     dependencies:
       '@neos-project/neos-ui-extensibility': 8.3.13
+
+  carbon-neos-range-editor@0.2.0(@neos-project/neos-ui-extensibility@8.3.13)(react@19.1.0):
+    dependencies:
+      '@neos-project/neos-ui-extensibility': 8.3.13
+      '@stylexjs/stylex': 0.13.1
+      carbon-neos-loadinganimation: 1.2.0(@neos-project/neos-ui-extensibility@8.3.13)
+      ts-deepmerge: 7.0.3
+      use-debounce: 10.0.5(react@19.1.0)
+    transitivePeerDependencies:
+      - react
 
   convert-source-map@2.0.0: {}
 
@@ -1057,15 +1098,23 @@ snapshots:
 
   prettier@3.5.3: {}
 
+  react@19.1.0: {}
+
   semver@6.3.1: {}
 
   styleq@0.2.1: {}
+
+  ts-deepmerge@7.0.3: {}
 
   update-browserslist-db@1.1.3(browserslist@4.25.0):
     dependencies:
       browserslist: 4.25.0
       escalade: 3.2.0
       picocolors: 1.1.1
+
+  use-debounce@10.0.5(react@19.1.0):
+    dependencies:
+      react: 19.1.0
 
   yallist@3.1.1: {}
 

@@ -13,6 +13,7 @@
     "@stylexjs/esbuild-plugin": "^0.11.1",
     "@stylexjs/stylex": "^0.12.0",
     "carbon-neos-loadinganimation": "^1.2.0",
+    "carbon-neos-range-editor": "^0.2.0",
     "esbuild": "^0.25.5",
     "fuzzysearch": "^1.0.3",
     "prettier": "^3.5.3",
