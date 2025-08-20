@@ -7,7 +7,7 @@ use Neos\Flow\ResourceManagement\ResourceManager;
 
 class Service
 {
-    /** @var array $fonts */
+    /** @var array<string,mixed> $fonts */
     #[Flow\InjectConfiguration('frontendConfiguration.CarbonWebfonts', 'Neos.Neos.Ui')]
     protected $fonts;
 
@@ -19,7 +19,7 @@ class Service
      *
      * @param bool $webfonts
      * @param bool $systemFonts
-     * @return array
+     * @return array<string,mixed>
      */
     public function getAllFonts(bool $webfonts = true, bool $systemFonts = true): array
     {
@@ -42,7 +42,7 @@ class Service
      * Get Font name
      *
      * @param string $font
-     * @return array|null
+     * @return string|null
      */
     public function getFontName(?string $font = null): ?string
     {
@@ -102,14 +102,14 @@ class Service
         if (!$file) {
             return null;
         }
-        return file_get_contents($file);
+        return file_get_contents($file) ?: null;
     }
 
     /**
      * Get Fonts Paths
      *
      * @param string $font
-     * @return array
+     * @return string[]
      */
     public function getFontsPaths($font): array
     {
@@ -119,7 +119,7 @@ class Service
         }
         $dirname = pathinfo($file, PATHINFO_DIRNAME);
         $paths = [];
-        $content = file_get_contents($file);
+        $content = (string) file_get_contents($file);
         $re = '/url\([\'"]?([^"\')]+)/m';
         preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
         foreach ($matches as $match) {

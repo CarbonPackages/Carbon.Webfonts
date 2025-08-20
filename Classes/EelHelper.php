@@ -16,7 +16,7 @@ class EelHelper implements ProtectedContextAwareInterface
      *
      * @param bool $webfonts
      * @param bool $systemFonts
-     * @return array
+     * @return array<string,mixed>
      */
     public function getAllFonts(bool $webfonts = true, bool $systemFonts = true): array
     {
@@ -27,7 +27,7 @@ class EelHelper implements ProtectedContextAwareInterface
      * Get Font name
      *
      * @param string $font
-     * @return array|null
+     * @return string|null
      */
     public function getFontName(?string $font = null): ?string {
         return $this->service->getFontName($font);
