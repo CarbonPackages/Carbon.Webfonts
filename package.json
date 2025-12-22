@@ -9,14 +9,15 @@
     "pipeline": "pnpm install --silent;pnpm build"
   },
   "devDependencies": {
-    "@neos-project/neos-ui-extensibility": "~8.3.13",
+    "@neos-project/neos-ui-extensibility": "~8.3.16",
     "@stylexjs/esbuild-plugin": "^0.11.1",
     "@stylexjs/stylex": "^0.12.0",
     "carbon-neos-loadinganimation": "^1.2.0",
-    "carbon-neos-range-editor": "^0.2.0",
-    "esbuild": "^0.25.5",
+    "carbon-neos-range-editor": "^0.2.3",
+    "esbuild": "^0.27.2",
     "fuzzysearch": "^1.0.3",
-    "prettier": "^3.5.3",
-    "yaml": "^2.8.0"
-  }
+    "prettier": "^3.7.4",
+    "yaml": "^2.8.2"
+  },
+  "packageManager": "pnpm@10.26.1+sha512.664074abc367d2c9324fdc18037097ce0a8f126034160f709928e9e9f95d98714347044e5c3164d65bd5da6c59c6be362b107546292a8eecb7999196e5ce58fa"
 }
