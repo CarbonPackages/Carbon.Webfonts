@@ -775,6 +775,11 @@ Neos:
             cssFile: resource://Carbon.Webfonts/Fonts/Manrope/Style.css
             fontWeight: 200 800
             fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+          Manufacturing Consent:
+            group: Display
+            cssFile: resource://Carbon.Webfonts/Fonts/Manufacturing-Consent/Style.css
+            fontWeight: 400
+            fallback: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
           Marcellus:
             group: Serif
             cssFile: resource://Carbon.Webfonts/Fonts/Marcellus/Style.css

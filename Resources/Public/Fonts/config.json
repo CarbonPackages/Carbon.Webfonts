@@ -1155,6 +1155,14 @@
     "fontWeight": "200 800",
     "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
+  "Manufacturing Consent": {
+    "version": "v1",
+    "filename": "Manufacturing-Consent",
+    "group": "Display",
+    "cssFile": "resource://Carbon.Webfonts/Fonts/Manufacturing-Consent/Style.css",
+    "fontWeight": 400,
+    "fallback": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
+  },
   "Marcellus": {
     "version": "v13",
     "filename": "Marcellus",
@@ -1547,7 +1555,7 @@
     "fallback": "Segoe Script,'Lucida Handwriting',cursive,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'"
   },
   "Pirata One": {
-    "version": "v22",
+    "version": "v23",
     "filename": "Pirata-One",
     "group": "Display",
     "cssFile": "resource://Carbon.Webfonts/Fonts/Pirata-One/Style.css",
@@ -2266,7 +2274,7 @@
     "fallback": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
   },
   "UnifrakturMaguntia": {
-    "version": "v20",
+    "version": "v22",
     "filename": "UnifrakturMaguntia",
     "group": "Display",
     "cssFile": "resource://Carbon.Webfonts/Fonts/UnifrakturMaguntia/Style.css",

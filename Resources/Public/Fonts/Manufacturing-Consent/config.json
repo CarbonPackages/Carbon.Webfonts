@@ -1,0 +1,8 @@
+{
+  "name": "Manufacturing Consent",
+  "version": "v1",
+  "filename": "Manufacturing-Consent",
+  "group": "Display",
+  "cssFile": "resource://Carbon.Webfonts/Fonts/Manufacturing-Consent/Style.css",
+  "fontWeight": 400
+}
