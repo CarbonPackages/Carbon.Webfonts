@@ -13,7 +13,7 @@
     "@stylexjs/stylex": "^0.18.3",
     "@stylexjs/unplugin": "^0.18.3",
     "carbon-neos-loadinganimation": "^1.2.0",
-    "carbon-neos-range-editor": "^0.2.3",
+    "carbon-neos-range-editor": "^0.2.4",
     "esbuild": "^0.28.1",
     "fuzzysearch": "^1.0.3",
     "prettier": "^3.8.4",

@@ -21,8 +21,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0(@neos-project/neos-ui-extensibility@8.3.19)
       carbon-neos-range-editor:
-        specifier: ^0.2.3
-        version: 0.2.3(@neos-project/neos-ui-extensibility@8.3.19)(react@19.1.0)
+        specifier: ^0.2.4
+        version: 0.2.4(@neos-project/neos-ui-extensibility@8.3.19)(react@19.1.0)
       esbuild:
         specifier: ^0.28.1
         version: 0.28.1
@@ -314,9 +314,6 @@ packages:
   '@stylexjs/shared@0.18.3':
     resolution: {integrity: sha512-g72AKGGhLTFsaez19zod2je9IQeaub2eM85jwJPvfmxymKW8Aleoxm5/pYIsnyxx3MZNOB5AVN6khfo90f9Lgw==}
 
-  '@stylexjs/stylex@0.13.1':
-    resolution: {integrity: sha512-s/aRE+pGaroMSttMDlrSMHf1lTF+uGe4ncWoRMlKZav6pg5g11sWuJojgA640aZy9jFgWvWSWbXzyUzeoDuMUQ==}
-
   '@stylexjs/stylex@0.18.3':
     resolution: {integrity: sha512-15gDzAJAorOE0yzxaWLNxldW2aqdmCiLG5QcPD8nmVCVqvrWp0Asgv45zk7LtN86WJb/4Ym9eQ6qT5MJW59tWQ==}
 
@@ -348,8 +345,8 @@ packages:
     peerDependencies:
       '@neos-project/neos-ui-extensibility': ^8.3.0 || ^9.0.0
 
-  carbon-neos-range-editor@0.2.3:
-    resolution: {integrity: sha512-buvpQRcmEEQASLDGrMXkNrBozExQ2a2nr3ajhD8rc9cQmnLqfPpIeo/ops3/QKiM4b/ZqJrAoU407G5Btlw6hA==}
+  carbon-neos-range-editor@0.2.4:
+    resolution: {integrity: sha512-WzQDbdOapogrNewm9fEoHz/274MlVYa4Gcxvd1afIT3YnsVbw6TOpLJPmJ7sN3k/+QzPdKyhglX0RarjONFA1A==}
     peerDependencies:
       '@neos-project/neos-ui-extensibility': ^8.3.0 || ^9.0.0
 
@@ -521,8 +518,8 @@ packages:
   styleq@0.2.1:
     resolution: {integrity: sha512-L0TR0NQb+X4/ktDEKmjWyp27gla+LUYi/by5k5SjKXf6/pvZP7wbwEB5J+tqxdFVPgzbsuz+d4RTScO/QZquBw==}
 
-  ts-deepmerge@7.0.3:
-    resolution: {integrity: sha512-Du/ZW2RfwV/D4cmA5rXafYjBQVuvu4qGiEEla4EmEHVHgRdx68Gftx7i66jn2bzHPwSVZY36Ae6OuDn9el4ZKA==}
+  ts-deepmerge@8.0.0:
+    resolution: {integrity: sha512-133O+10nJmVI8w5xeVZPEv5PIrv7iaUae07wv1aH8XJH95Ur6YIhWAPhPyP1YPlbPS9fCVcNIZTu7m8urRVF0A==}
     engines: {node: '>=14.13.1'}
 
   unplugin@2.3.11:
@@ -791,12 +788,6 @@ snapshots:
 
   '@stylexjs/shared@0.18.3': {}
 
-  '@stylexjs/stylex@0.13.1':
-    dependencies:
-      css-mediaquery: 0.1.2
-      invariant: 2.2.4
-      styleq: 0.2.1
-
   '@stylexjs/stylex@0.18.3':
     dependencies:
       css-mediaquery: 0.1.2
@@ -834,12 +825,12 @@ snapshots:
     dependencies:
       '@neos-project/neos-ui-extensibility': 8.3.19
 
-  carbon-neos-range-editor@0.2.3(@neos-project/neos-ui-extensibility@8.3.19)(react@19.1.0):
+  carbon-neos-range-editor@0.2.4(@neos-project/neos-ui-extensibility@8.3.19)(react@19.1.0):
     dependencies:
       '@neos-project/neos-ui-extensibility': 8.3.19
-      '@stylexjs/stylex': 0.13.1
+      '@stylexjs/stylex': 0.18.3
       carbon-neos-loadinganimation: 1.2.0(@neos-project/neos-ui-extensibility@8.3.19)
-      ts-deepmerge: 7.0.3
+      ts-deepmerge: 8.0.0
       use-debounce: 10.1.1(react@19.1.0)
     transitivePeerDependencies:
       - react
@@ -976,7 +967,7 @@ snapshots:
 
   styleq@0.2.1: {}
 
-  ts-deepmerge@7.0.3: {}
+  ts-deepmerge@8.0.0: {}
 
   unplugin@2.3.11:
     dependencies:
