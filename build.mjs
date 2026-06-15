@@ -1,7 +1,6 @@
 import esbuild from "esbuild";
-import stylexPlugin from "@stylexjs/esbuild-plugin";
+import stylex from "@stylexjs/unplugin";
 import path from "path";
-import { fileURLToPath } from "url";
 import fs from "fs";
 import YAML from "yaml";
 import extensibilityMap from "@neos-project/neos-ui-extensibility/extensibilityMap.json" with { type: "json" };
@@ -89,7 +88,6 @@ function generateFontSettings() {
 
 function buildEditor() {
     const outdir = "Resources/Public/Editor";
-    const __dirname = path.dirname(fileURLToPath(import.meta.url));
     const watch = process.argv.includes("--watch");
     const dev = process.argv.includes("--dev");
     const minify = !dev && !watch;
@@ -108,16 +106,18 @@ function buildEditor() {
         alias: extensibilityMap,
         format: "esm",
         splitting: true,
+        metafile: true,
         loader: {
             ".js": "jsx",
         },
         plugins: [
-            stylexPlugin({
-                classNamePrefix: "webfonts-",
+            stylex.esbuild({
                 useCSSLayers: false,
-                dev: false,
-                generatedCSSFileName: path.resolve(__dirname, outdir, "Main.css"),
-                stylexImports: ["@stylexjs/stylex"],
+                classNamePrefix: "webfonts-",
+                dev,
+                lightningcssOptions: {
+                    minify,
+                },
             }),
         ],
     };

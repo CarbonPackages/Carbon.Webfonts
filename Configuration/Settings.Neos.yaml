@@ -17,7 +17,7 @@ Neos:
               type: 'module'
         stylesheets:
           Carbon.Webfonts:
-            resource: resource://Carbon.Webfonts/Public/Editor/Main.css
+            resource: resource://Carbon.Webfonts/Public/Editor/stylex.css
 
       frontendConfiguration:
         'Carbon.Webfonts.FontFamily':

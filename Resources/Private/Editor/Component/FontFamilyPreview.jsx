@@ -7,9 +7,11 @@ const styles = stylex.create({
     output: {
         display: "block",
         marginLeft: "calc(var(--spacing-Full) * -1)",
-        padding: "0 0 0 14px",
+        paddingBlock: 0,
+        paddingLeft: "14px",
+        paddingRight: 0,
         overflow: "hidden",
-        background: "transparent",
+        backgroundColor: "transparent",
         border: 0,
         lineHeight: 1,
         height: 40,

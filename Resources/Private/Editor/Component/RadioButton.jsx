@@ -3,7 +3,9 @@ import * as stylex from "@stylexjs/stylex";
 
 const styles = stylex.create({
     highlight: {
-        outline: "var(--colors-Warn) solid 2px",
+        outlineWidth: 2,
+        outlineStyle: "solid",
+        outlineColor: "var(--colors-Warn)",
         outlineOffset: 2,
         zIndex: 2,
         borderRadius: 2,
@@ -46,7 +48,7 @@ const styles = stylex.create({
     }),
     dot: (checked) => ({
         display: "block",
-        background: checked ? "var(--colors-ContrastBrightest)" : "var(--colors-UncheckedCheckboxTick)",
+        backgroundColor: checked ? "var(--colors-ContrastBrightest)" : "var(--colors-UncheckedCheckboxTick)",
         borderRadius: 9999,
         width: "var(--spacing-Half)",
         height: "var(--spacing-Half)",
