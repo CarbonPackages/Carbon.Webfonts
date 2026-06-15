@@ -64,7 +64,7 @@ const styles = stylex.create({
         justifyContent: "space-between",
         paddingInline: "var(--spacing-Full)",
         paddingBlock: "var(--spacing-Half)",
-        border: 0,
+        borderWidth: 0,
         color: "var(--colors-ContrastBrightest)",
         gap: "var(--spacing-Half)",
         textAlign: "left",

@@ -12,7 +12,7 @@ const styles = stylex.create({
         paddingRight: 0,
         overflow: "hidden",
         backgroundColor: "transparent",
-        border: 0,
+        borderWidth: 0,
         lineHeight: 1,
         height: 40,
         color: "var(--colors-ContrastBrightest)",
